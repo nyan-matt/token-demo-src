@@ -1,0 +1,90 @@
+{
+  "base": {
+    "background": {
+      "page": {
+        "primary": {
+          "value": "rgba(128, 24, 96, 1)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "rgba(0, 179, 166, 1)",
+          "type": "color"
+        },
+        "error": {
+          "value": "rgba(176, 0, 32, 1)",
+          "type": "color"
+        }
+      }
+    },
+    "default": {
+      "value": "16px",
+      "type": "fontSizes"
+    },
+    "body": {
+      "sm": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "18px",
+        "type": "fontSizes"
+      }
+    },
+    "spacing": {
+      "unit": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "{spacing.unit}*2",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "{spacing.unit}*3",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{spacing.unit}*4",
+        "type": "spacing"
+      }
+    },
+    "dark": {
+      "80": {
+        "value": "hsl(0,0%,20%)",
+        "type": "color"
+      },
+      "90": {
+        "value": "hsl(0,0%,10%)",
+        "type": "color"
+      },
+      "100": {
+        "value": "hsl(0,0%,0%)",
+        "type": "color"
+      }
+    },
+    "light": {
+      "80": {
+        "value": "hsl(0,0%,80%)",
+        "type": "color"
+      },
+      "90": {
+        "value": "hsl(0,0%,90%)",
+        "type": "color"
+      },
+      "100": {
+        "value": "hsl(0,0%,100%)",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "base"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 10 Dec 2022 14:18:42 GMT
+ */
+
+:root {
+  --light-100: #ffffff;
+  --light-90: #e6e6e6;
+  --light-80: #cccccc;
+  --dark-100: #000000;
+  --dark-90: #1a1a1a;
+  --dark-80: #333333;
+  --spacing-lg: 16px;
+  --spacing-md: 12px;
+  --spacing-sm: 8px;
+  --spacing-unit: 4px;
+  --body-lg: 18px;
+  --body-md: 14px;
+  --body-sm: 12px;
+  --default: 16px;
+  --background-page-error: #b00020;
+  --background-page-secondary: #00b3a6;
+  --background-page-primary: #801860;
+}
