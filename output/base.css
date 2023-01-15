@@ -1,20 +1,12 @@
 .base-theme {
-          --border-radius-border-radius-unit: 4px;
-  --border-radius-border-radius-xs: 4px;
-  --border-radius-border-radius-sm: 8px;
-  --border-radius-border-radius-md: 12px;
-  --border-radius-border-radius-lg: 16px;
-  --border-radius-border-radius-xl: 20px;
-  --border-radius-border-radius-xxl: 24px;
-  --border-radius-border-radius-none: 0px;
-  --spacing-spacing-unit: 8px;
-  --spacing-spacing-xs: 8px;
-  --spacing-spacing-sm: 16px;
-  --spacing-spacing-md: 24px;
-  --spacing-spacing-lg: 32px;
-  --spacing-spacing-xl: 40px;
-  --spacing-spacing-xxl: 48px;
-  --spacing-spacing-none: 0px;
+          --spacing-base-unit: 8px;
+  --spacing-base-xs: 8px;
+  --spacing-base-sm: 16px;
+  --spacing-base-md: 24px;
+  --spacing-base-lg: 32px;
+  --spacing-base-xl: 40px;
+  --spacing-base-xxl: 48px;
+  --spacing-base-none: 0px;
   --color-dark-64: #5c5c5c;
   --color-dark-68: #525252;
   --color-dark-72: #474747;

@@ -195,7 +195,7 @@
   },
   "button": {
     "default": {
-      "value": "24px",
+      "value": "48px",
       "type": "borderRadius"
     },
     "padding-x": {

@@ -1,39 +1,5 @@
 {
-  "border-radius": {
-    "unit": {
-      "value": "4px",
-      "type": "borderRadius"
-    },
-    "xs": {
-      "value": "4px",
-      "type": "borderRadius"
-    },
-    "sm": {
-      "value": "8px",
-      "type": "borderRadius"
-    },
-    "md": {
-      "value": "12px",
-      "type": "borderRadius"
-    },
-    "lg": {
-      "value": "16px",
-      "type": "borderRadius"
-    },
-    "xl": {
-      "value": "20px",
-      "type": "borderRadius"
-    },
-    "xxl": {
-      "value": "24px",
-      "type": "borderRadius"
-    },
-    "none": {
-      "value": "0px",
-      "type": "borderRadius"
-    }
-  },
-  "spacing": {
+  "base": {
     "unit": {
       "value": "8px",
       "type": "spacing"
