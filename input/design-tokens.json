@@ -851,15 +851,15 @@
     },
     "primary": {
       "default": {
-        "value": "{green.70}",
+        "value": "{pink.70}",
         "type": "color"
       },
       "hover": {
-        "value": "{green.80}",
+        "value": "{pink.80}",
         "type": "color"
       },
       "disabled": {
-        "value": "{green.10}",
+        "value": "{pink.10}",
         "type": "color"
       }
     },
