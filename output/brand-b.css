@@ -1,9 +1,9 @@
 .brand-b-theme {
           --color-background-default: #ffffff;
   --color-foreground-default: #000000;
-  --color-primary-default: #0d8227;
-  --color-primary-hover: #0b6b20;
-  --color-primary-disabled: #c3e6cb;
+  --color-primary-default: #d44e25;
+  --color-primary-hover: #ae401e;
+  --color-primary-disabled: #fed6ca;
   --color-surface-default: #f5f5f5;
   --color-surface-active: #ffffff;
   --color-surface-hover: #ebebeb;
