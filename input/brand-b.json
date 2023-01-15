@@ -13,15 +13,15 @@
   },
   "primary": {
     "default": {
-      "value": "#700865",
+      "value": "#0d8227",
       "type": "color"
     },
     "hover": {
-      "value": "#5c0653",
+      "value": "#0b6b20",
       "type": "color"
     },
     "disabled": {
-      "value": "#e0c2dd",
+      "value": "#c3e6cb",
       "type": "color"
     }
   },
