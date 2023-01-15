@@ -1,66 +1,32 @@
 {
   "base": {
-    "border-radius": {
-      "unit": {
-        "value": "4px",
-        "type": "borderRadius"
-      },
-      "xs": {
-        "value": "{border-radius.unit}*1",
-        "type": "borderRadius"
-      },
-      "sm": {
-        "value": "{border-radius.unit}*2",
-        "type": "borderRadius"
-      },
-      "md": {
-        "value": "{border-radius.unit}*3",
-        "type": "borderRadius"
-      },
-      "lg": {
-        "value": "{border-radius.unit}*4",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "{border-radius.unit}*5",
-        "type": "borderRadius"
-      },
-      "xxl": {
-        "value": "{border-radius.unit}*6",
-        "type": "borderRadius"
-      },
-      "none": {
-        "value": "0px",
-        "type": "borderRadius"
-      }
-    },
-    "spacing": {
+    "base": {
       "unit": {
         "value": "8px",
         "type": "spacing"
       },
       "xs": {
-        "value": "{spacing.unit}*1",
+        "value": "{base.unit}*1",
         "type": "spacing"
       },
       "sm": {
-        "value": "{spacing.unit}*2",
+        "value": "{base.unit}*2",
         "type": "spacing"
       },
       "md": {
-        "value": "{spacing.unit}*3",
+        "value": "{base.unit}*3",
         "type": "spacing"
       },
       "lg": {
-        "value": "{spacing.unit}*4",
+        "value": "{base.unit}*4",
         "type": "spacing"
       },
       "xl": {
-        "value": "{spacing.unit}*5",
+        "value": "{base.unit}*5",
         "type": "spacing"
       },
       "xxl": {
-        "value": "{spacing.unit}*6",
+        "value": "{base.unit}*6",
         "type": "spacing"
       },
       "none": {
@@ -809,11 +775,11 @@
     },
     "button": {
       "default": {
-        "value": "{border-radius.xxl}",
+        "value": "{base.xxl}",
         "type": "borderRadius"
       },
       "padding-x": {
-        "value": "{spacing.sm}",
+        "value": "{base.sm}",
         "type": "spacing"
       },
       "label": {
@@ -1021,11 +987,11 @@
     },
     "button": {
       "default": {
-        "value": "{border-radius.none}",
+        "value": "{base.none}",
         "type": "borderRadius"
       },
       "padding-x": {
-        "value": "{spacing.lg}",
+        "value": "{base.lg}",
         "type": "spacing"
       },
       "label": {
