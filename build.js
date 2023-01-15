@@ -1,9 +1,18 @@
-const StyleDictionary = require('style-dictionary');
+const StyleDictionaryPackage = require('style-dictionary');
 
-console.log('Build started...');
-console.log('\n==============================================');
+// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
-function getBasePxFontSize(options) {
+StyleDictionaryPackage.registerFormat({
+    name: 'css/variables',
+    formatter: function (dictionary, config) {
+      return `${this.selector} {
+        ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
+      }`
+    }
+  });  
+
+//
+  function getBasePxFontSize(options) {
   return (options && options.basePxFontSize) || 16;
 }
 
@@ -19,21 +28,64 @@ function fontPxToRem(token, options) {
   return `${floatVal / baseFont}rem`;
 }
 
-StyleDictionary.registerTransform({
-  name: 'size/pxToRem',
-  type: 'value',
-  matcher: (token) => ['fontSizes'].includes(token.type),
-  transformer: (token, options) => fontPxToRem(token, options)
+StyleDictionaryPackage.registerTransform({
+    name: 'size/pxToRem',
+    type: 'value',
+    matcher: (token) => ['fontSizes'].includes(token.type),
+    transformer: (token, options) => fontPxToRem(token, options)
+  })
+// 
+StyleDictionaryPackage.registerTransform({
+    name: 'sizes/px',
+    type: 'value',
+    matcher: function(prop) {
+        // You can be more specific here if you only want 'em' units for font sizes    
+        return ["fontSize", "spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
+    },
+    transformer: function(prop) {
+        // You can also modify the value here if you want to convert pixels to ems
+        return parseFloat(prop.original.value) + 'px';
+    }
+    });
+
+function getStyleDictionaryConfig(theme) {
+  return {
+    "source": [
+      `input/${theme}.json`,
+    ],
+    "platforms": {
+      "web": {
+        "transforms": 
+          ["attribute/cti", "name/cti/kebab", "sizes/px", "size/pxToRem"],
+        "buildPath": `output/`,
+        "files": [{
+            "destination": `${theme}.css`,
+            "format": "css/variables",
+            "selector": `.${theme}-theme`
+          }]
+      }
+    }
+  };
+}
+
+console.log('Build started...');
+
+// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
+
+['base', 'brand-a', 'brand-b'].map(function (theme) {
+
+    console.log('\n==============================================');
+    console.log(`\nProcessing: [${theme}]`);
+
+    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
+
+    StyleDictionary.buildPlatform('web');
+
+    console.log('\nEnd processing');
 })
-StyleDictionary.registerTransformGroup({
-  name: 'custom/web',
-  transforms: ["attribute/cti", "name/cti/kebab", "size/pxToRem"]            
-});
-
-
-const StyleDictionaryExtended = StyleDictionary.extend(__dirname + '/config.json');
-
-StyleDictionaryExtended.buildAllPlatforms();
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
+
+
+

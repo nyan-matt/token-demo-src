@@ -817,13 +817,22 @@
         "type": "spacing"
       },
       "label": {
-        "value": {
-          "fontFamily": "{mono}",
-          "fontWeight": "{regular}",
-          "lineHeight": "",
-          "fontSize": "{label.lg}"
+        "fontFamily": {
+          "value": "{mono}",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": "{regular}",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "{label.lg}",
+          "type": "fontSize"
+        }
       }
     }
   },
@@ -1020,13 +1029,22 @@
         "type": "spacing"
       },
       "label": {
-        "value": {
-          "fontFamily": "{sans-serif}",
-          "fontWeight": "{bold}",
-          "lineHeight": "",
-          "fontSize": "{label.md}"
+        "fontFamily": {
+          "value": "{sans-serif}",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": "{bold}",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": "{label.md}",
+          "type": "fontSize"
+        }
       }
     }
   },
