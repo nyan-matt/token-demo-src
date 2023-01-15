@@ -6,12 +6,20 @@ StyleDictionaryPackage.registerFormat({
     name: 'css/variables',
     formatter: function (dictionary, config) {
       return `${this.selector} {
-        ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
+        ${dictionary.allProperties.map(prop => `  --${kebabIt(prop.type)}-${prop.name}: ${prop.value};`).join('\n')}
       }`
     }
   });  
 
 //
+
+function kebabIt(str) {
+    return str
+        .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+        .join('-')
+        .toLowerCase();
+  }
+
   function getBasePxFontSize(options) {
   return (options && options.basePxFontSize) || 16;
 }
