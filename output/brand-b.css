@@ -46,6 +46,11 @@
   --spacing-button-padding-x: 16px;
   --sizing-button-height-lg: 36px;
   --sizing-button-height-sm: 24px;
-  --typography-button-typography-lg: [object Object];
-  --typography-button-typography-sm: [object Object];
+  --font-families-button-typography-lg-font-family: Consolas;
+  --font-weights-button-typography-lg-font-weight: 400;
+  --font-sizes-button-typography-lg-font-size: 1rem;
+  --text-case-button-typography-lg-text-case: uppercase;
+  --font-families-button-typography-sm-font-family: Consolas;
+  --font-weights-button-typography-sm-font-weight: 400;
+  --font-sizes-button-typography-sm-font-size: 0.75rem;
       }

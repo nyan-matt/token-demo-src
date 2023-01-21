@@ -214,21 +214,36 @@
     },
     "typography": {
       "lg": {
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": 500,
-          "fontSize": "16px",
-          "textCase": "uppercase"
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
       },
       "sm": {
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": 500,
-          "fontSize": "12px"
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "12px",
+          "type": "fontSizes"
+        }
       }
     }
   }

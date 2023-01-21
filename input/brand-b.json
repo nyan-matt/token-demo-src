@@ -214,21 +214,36 @@
     },
     "typography": {
       "lg": {
-        "value": {
-          "fontFamily": "Consolas",
-          "fontWeight": 400,
-          "fontSize": "16px",
-          "textCase": "uppercase"
+        "fontFamily": {
+          "value": "Consolas",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        }
       },
       "sm": {
-        "value": {
-          "fontFamily": "Consolas",
-          "fontWeight": 400,
-          "fontSize": "12px"
+        "fontFamily": {
+          "value": "Consolas",
+          "type": "fontFamilies"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "12px",
+          "type": "fontSizes"
+        }
       }
     }
   }
