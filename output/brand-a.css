@@ -44,8 +44,8 @@
   --color-status-info-weak: #c4d0f3;
   --border-radius-button-default: 48px;
   --spacing-button-padding-x: 16px;
-  --font-family-button-label-font-family: Consolas;
-  --font-weight-button-label-font-weight: 400;
-  --line-height-button-label-line-height: ;
-  --font-size-button-label-font-size: 16px;
+  --sizing-button-height-lg: 36px;
+  --sizing-button-height-sm: 24px;
+  --typography-button-typography-lg: [object Object];
+  --typography-button-typography-sm: [object Object];
       }

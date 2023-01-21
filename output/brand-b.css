@@ -1,9 +1,9 @@
 .brand-b-theme {
           --color-background-default: #ffffff;
   --color-foreground-default: #000000;
-  --color-primary-default: #d44e25;
-  --color-primary-hover: #ae401e;
-  --color-primary-disabled: #fed6ca;
+  --color-primary-default: #840977;
+  --color-primary-hover: #700865;
+  --color-primary-disabled: #e0c2dd;
   --color-surface-default: #f5f5f5;
   --color-surface-active: #ffffff;
   --color-surface-hover: #ebebeb;
@@ -12,12 +12,12 @@
   --color-text-weaker: #a3a3a3;
   --color-text-weakest: #b8b8b8;
   --color-text-on-color: #ffffff;
-  --color-secondary-default: #0a4173;
-  --color-secondary-hover: #093762;
-  --color-secondary-disabled: #c2d0dc;
-  --color-tertiary-default: #333E48;
-  --color-tertiary-hover: #2b353d;
-  --color-tertiary-disabled: #cccfd1;
+  --color-secondary-default: #62a0a5;
+  --color-secondary-hover: #53888c;
+  --color-secondary-disabled: #d8e7e9;
+  --color-tertiary-default: #5c5c5c;
+  --color-tertiary-hover: #5c5c5c;
+  --color-tertiary-disabled: #c2c2c2;
   --color-text-interactive-link: #1341cd;
   --color-text-interactive-link-hover: #1037ae;
   --color-text-interactive-danger: #c71212;
@@ -31,6 +31,9 @@
   --color-border-weak: #e0e0e0;
   --color-border-weaker: #ebebeb;
   --color-border-weakest: #f5f5f5;
+  --color-border-primary: #840977;
+  --color-border-secondary: #62a0a5;
+  --color-border-tertiary: #5c5c5c;
   --color-status-danger: #a90f0f;
   --color-status-danger-weak: #f1c4c4;
   --color-status-warning: #F95C2B;
@@ -39,10 +42,10 @@
   --color-status-success-weak: #c3e6cb;
   --color-status-info: #1341cd;
   --color-status-info-weak: #c4d0f3;
-  --border-radius-button-default: 0px;
-  --spacing-button-padding-x: 32px;
-  --font-family-button-label-font-family: Inter;
-  --font-weight-button-label-font-weight: 600;
-  --line-height-button-label-line-height: ;
-  --font-size-button-label-font-size: 14px;
+  --border-radius-button-default: 4px;
+  --spacing-button-padding-x: 16px;
+  --sizing-button-height-lg: 36px;
+  --sizing-button-height-sm: 24px;
+  --typography-button-typography-lg: [object Object];
+  --typography-button-typography-sm: [object Object];
       }

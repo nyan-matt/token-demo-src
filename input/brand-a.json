@@ -202,22 +202,33 @@
       "value": "16px",
       "type": "spacing"
     },
-    "label": {
-      "fontFamily": {
-        "value": "Consolas",
-        "type": "fontFamily"
+    "height": {
+      "lg": {
+        "value": "36px",
+        "type": "sizing"
       },
-      "fontWeight": {
-        "value": 400,
-        "type": "fontWeight"
+      "sm": {
+        "value": "24px",
+        "type": "sizing"
+      }
+    },
+    "typography": {
+      "lg": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 500,
+          "fontSize": "16px",
+          "textCase": "uppercase"
+        },
+        "type": "typography"
       },
-      "lineHeight": {
-        "value": "",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": "16px",
-        "type": "fontSize"
+      "sm": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontWeight": 500,
+          "fontSize": "12px"
+        },
+        "type": "typography"
       }
     }
   }

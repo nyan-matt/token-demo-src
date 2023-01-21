@@ -135,4 +135,10 @@
   --font-weights-regular: 400;
   --font-weights-medium: 500;
   --font-weights-bold: 600;
+  --border-radius-radius-min: 4px;
+  --border-radius-radius-xs: 8px;
+  --border-radius-radius-sm: 12px;
+  --border-radius-radius-md: 24px;
+  --border-radius-radius-lg: 48px;
+  --border-radius-radius-xl: 64px;
       }

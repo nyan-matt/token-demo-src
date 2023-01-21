@@ -13,15 +13,15 @@
   },
   "primary": {
     "default": {
-      "value": "#d44e25",
+      "value": "#840977",
       "type": "color"
     },
     "hover": {
-      "value": "#ae401e",
+      "value": "#700865",
       "type": "color"
     },
     "disabled": {
-      "value": "#fed6ca",
+      "value": "#e0c2dd",
       "type": "color"
     }
   },
@@ -63,29 +63,29 @@
   },
   "secondary": {
     "default": {
-      "value": "#0a4173",
+      "value": "#62a0a5",
       "type": "color"
     },
     "hover": {
-      "value": "#093762",
+      "value": "#53888c",
       "type": "color"
     },
     "disabled": {
-      "value": "#c2d0dc",
+      "value": "#d8e7e9",
       "type": "color"
     }
   },
   "tertiary": {
     "default": {
-      "value": "#333E48",
+      "value": "#5c5c5c",
       "type": "color"
     },
     "hover": {
-      "value": "#2b353d",
+      "value": "#5c5c5c",
       "type": "color"
     },
     "disabled": {
-      "value": "#cccfd1",
+      "value": "#c2c2c2",
       "type": "color"
     }
   },
@@ -145,6 +145,18 @@
     "weakest": {
       "value": "#f5f5f5",
       "type": "color"
+    },
+    "primary": {
+      "value": "#840977",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#62a0a5",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#5c5c5c",
+      "type": "color"
     }
   },
   "status": {
@@ -183,29 +195,40 @@
   },
   "button": {
     "default": {
-      "value": "0px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "padding-x": {
-      "value": "32px",
+      "value": "16px",
       "type": "spacing"
     },
-    "label": {
-      "fontFamily": {
-        "value": "Inter",
-        "type": "fontFamily"
+    "height": {
+      "lg": {
+        "value": "36px",
+        "type": "sizing"
       },
-      "fontWeight": {
-        "value": 600,
-        "type": "fontWeight"
+      "sm": {
+        "value": "24px",
+        "type": "sizing"
+      }
+    },
+    "typography": {
+      "lg": {
+        "value": {
+          "fontFamily": "Consolas",
+          "fontWeight": 400,
+          "fontSize": "16px",
+          "textCase": "uppercase"
+        },
+        "type": "typography"
       },
-      "lineHeight": {
-        "value": "",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": "14px",
-        "type": "fontSize"
+      "sm": {
+        "value": {
+          "fontFamily": "Consolas",
+          "fontWeight": 400,
+          "fontSize": "12px"
+        },
+        "type": "typography"
       }
     }
   }
