@@ -41,7 +41,7 @@
     "typography": {
       "lg": {
         "fontFamily": {
-          "value": "Inter",
+          "value": "\"Inter\", Helvetica, Arial, sans-serif",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -59,7 +59,7 @@
       },
       "sm": {
         "fontFamily": {
-          "value": "Inter",
+          "value": "\"Inter\", Helvetica, Arial, sans-serif",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -71,6 +71,10 @@
           "type": "fontSizes"
         }
       }
+    },
+    "font-family": {
+      "value": "\"Consolas\", Courier, monospace",
+      "type": "fontFamilies"
     }
   }
 }
