@@ -41,7 +41,7 @@
     "typography": {
       "lg": {
         "fontFamily": {
-          "value": "\"Consolas\", Courier, monospace",
+          "value": "'Consolas', Courier, monospace",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -59,7 +59,7 @@
       },
       "sm": {
         "fontFamily": {
-          "value": "\"Consolas\", Courier, monospace",
+          "value": "'Consolas', Courier, monospace",
           "type": "fontFamilies"
         },
         "fontWeight": {

@@ -7,11 +7,11 @@
   --button-padding-right: 16px;
   --button-height-lg: 36px;
   --button-height-sm: 24px;
-  --button-typography-lg-font-family: "Consolas", Courier, monospace;
+  --button-typography-lg-font-family: 'Consolas', Courier, monospace;
   --button-typography-lg-font-weight: 400;
   --button-typography-lg-font-size: 1rem;
   --button-typography-lg-text-case: uppercase;
-  --button-typography-sm-font-family: "Consolas", Courier, monospace;
+  --button-typography-sm-font-family: 'Consolas', Courier, monospace;
   --button-typography-sm-font-weight: 400;
   --button-typography-sm-font-size: 0.75rem;
   --button-font-family: 'Inter', Helvetica, Arial, sans-serif;

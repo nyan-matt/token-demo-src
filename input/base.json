@@ -339,7 +339,7 @@
       "type": "fontFamilies"
     },
     "mono": {
-      "value": "\"Consolas\", Courier, monospace",
+      "value": "'Consolas', Courier, monospace",
       "type": "fontFamilies"
     }
   },

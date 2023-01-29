@@ -73,7 +73,7 @@
       }
     },
     "font-family": {
-      "value": "\"Consolas\", Courier, monospace",
+      "value": "'Consolas', Courier, monospace",
       "type": "fontFamilies"
     }
   },
