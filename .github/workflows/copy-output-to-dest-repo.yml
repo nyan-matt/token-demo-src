@@ -1,0 +1,23 @@
+name: Copy output token vars to destination repo locations
+
+on:
+  push:
+    paths:
+      - 'output/**'
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy output tokens to destination repo
+      uses: andstor/copycat-action@v3.2.4
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        src_path: output/**.css
+        dst_owner: nyan-matt
+        dst_repo_name: stencil-storybook-token-demo
+        dst_branch: main
+        dst_path: src/css
+        username: nyan-matt
+          
+  
