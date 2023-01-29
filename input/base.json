@@ -494,5 +494,11 @@
       "value": "#ffffff",
       "type": "color"
     }
+  },
+  "color-test": {
+    "ci-trigger": {
+      "value": "red",
+      "type": "color"
+    }
   }
 }
