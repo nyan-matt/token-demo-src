@@ -1,4 +1,4 @@
-name: CI
+name: Generate css vars from tokens
 on: [push]
 
 jobs:
