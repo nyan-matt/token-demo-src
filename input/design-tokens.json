@@ -332,7 +332,7 @@
     },
     "font-face-base": {
       "sans-serif": {
-        "value": "\"Inter\", Helvetica, Arial, sans-serif",
+        "value": "'Inter', Helvetica, Arial, sans-serif",
         "type": "fontFamilies"
       },
       "serif": {
@@ -560,6 +560,20 @@
         "value": "{font-face-base.mono}",
         "type": "fontFamilies"
       }
+    },
+    "color-disabled": {
+      "text": {
+        "value": "{color-base-neutral-light.10}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color-base-neutral-light.90}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color-base-neutral-light.20}",
+        "type": "color"
+      }
     }
   },
   "brand-b": {
@@ -624,6 +638,20 @@
       "font-family": {
         "value": "{font-face-base.sans-serif}",
         "type": "fontFamilies"
+      }
+    },
+    "color-disabled": {
+      "text": {
+        "value": "{color-base-neutral-light.10}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color-base-neutral-light.90}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color-base-neutral-light.20}",
+        "type": "color"
       }
     }
   },
