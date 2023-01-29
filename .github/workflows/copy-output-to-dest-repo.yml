@@ -2,6 +2,8 @@ name: Copy output token vars to destination repo locations
 
 on:
   push:
+    branches:
+      - 'main'
     paths:
       - 'output/**'
 
