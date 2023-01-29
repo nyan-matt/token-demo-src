@@ -73,8 +73,22 @@
       }
     },
     "font-family": {
-      "value": "\"Inter\", Helvetica, Arial, sans-serif",
+      "value": "'Inter', Helvetica, Arial, sans-serif",
       "type": "fontFamilies"
+    }
+  },
+  "color-disabled": {
+    "text": {
+      "value": "#a3a3a3",
+      "type": "color"
+    },
+    "background": {
+      "value": "#f5f5f5",
+      "type": "color"
+    },
+    "border": {
+      "value": "#adadad",
+      "type": "color"
     }
   }
 }

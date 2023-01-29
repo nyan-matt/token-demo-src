@@ -331,7 +331,7 @@
   },
   "font-face-base": {
     "sans-serif": {
-      "value": "\"Inter\", Helvetica, Arial, sans-serif",
+      "value": "'Inter', Helvetica, Arial, sans-serif",
       "type": "fontFamilies"
     },
     "serif": {

@@ -77,7 +77,7 @@
   --color-base-pink-80: #5c0653;
   --color-base-pink-90: #490541;
   --color-base-pink-100: #350430;
-  --font-face-base-sans-serif: "Inter", Helvetica, Arial, sans-serif;
+  --font-face-base-sans-serif: 'Inter', Helvetica, Arial, sans-serif;
   --font-face-base-serif: Baskerville;
   --font-face-base-mono: "Consolas", Courier, monospace;
   --font-size-display-xs: 0.875rem;
