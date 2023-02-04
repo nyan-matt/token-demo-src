@@ -2,16 +2,13 @@ name: Copy output token vars to destination repo locations
 
 on:
   push:
-    branches:
-      - 'main'
     paths:
       - 'output/**'
-
 jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
-      - name: Copy output tokens to destination repo
+      - name: Copy output tokens
         uses: andstor/copycat-action@v3.2.4
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
@@ -21,5 +18,3 @@ jobs:
           dst_branch: main
           dst_path: src/css
           username: nyan-matt
-          
-  
