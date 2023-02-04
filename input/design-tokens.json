@@ -498,7 +498,7 @@
     },
     "color-test": {
       "ci-trigger": {
-        "value": "purple",
+        "value": "navy",
         "type": "color"
       }
     }
