@@ -30,7 +30,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAT }}
           src_branch: main
-          src_path: output/**.css
+          src_path: 'output/**.css'
           dst_owner: nyan-matt
           dst_repo_name: stencil-storybook-token-demo
           dst_branch: main
