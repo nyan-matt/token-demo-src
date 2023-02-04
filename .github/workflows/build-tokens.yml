@@ -30,7 +30,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           src_branch: 'main'
-          src_path: output/**.css
+          src_path: output
           dst_owner: nyan-matt
           dst_repo_name: stencil-storybook-token-demo
           dst_branch: 'main'
