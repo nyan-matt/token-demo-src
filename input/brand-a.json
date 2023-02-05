@@ -53,7 +53,7 @@
           "type": "fontSizes"
         },
         "textCase": {
-          "value": "uppercase",
+          "value": "none",
           "type": "textCase"
         }
       },

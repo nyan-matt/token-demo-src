@@ -10,7 +10,7 @@
   --button-typography-lg-font-family: 'Inter', Helvetica, Arial, sans-serif;
   --button-typography-lg-font-weight: 500;
   --button-typography-lg-font-size: 1rem;
-  --button-typography-lg-text-case: uppercase;
+  --button-typography-lg-text-case: none;
   --button-typography-sm-font-family: 'Inter', Helvetica, Arial, sans-serif;
   --button-typography-sm-font-weight: 500;
   --button-typography-sm-font-size: 0.75rem;
