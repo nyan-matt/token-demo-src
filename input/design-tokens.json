@@ -498,7 +498,7 @@
     },
     "color-test": {
       "ci-trigger": {
-        "value": "navy",
+        "value": "beige",
         "type": "color"
       }
     }
@@ -549,7 +549,7 @@
             "fontFamily": "{font-face-base.sans-serif}",
             "fontWeight": "{font-weight-base.medium}",
             "fontSize": "{font-size-label.lg}",
-            "textCase": "uppercase"
+            "textCase": "none"
           },
           "type": "typography"
         },
