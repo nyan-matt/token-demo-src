@@ -30,12 +30,11 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAT }}
           src_branch: main
-          src_path: output
-          file_filter: '*.css'
+          src_path: output/.
           dst_owner: nyan-matt
           dst_repo_name: stencil-storybook-token-demo
           dst_branch: main
-          dst_path: src/css
+          dst_path: src/css/.
           username: nyan-matt
           email: matt.rea@gmail.com
           commit_message: copy css tokens
