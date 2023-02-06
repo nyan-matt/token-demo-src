@@ -497,7 +497,7 @@
   },
   "color-test": {
     "ci-trigger": {
-      "value": "beige",
+      "value": "#349801",
       "type": "color"
     }
   }
