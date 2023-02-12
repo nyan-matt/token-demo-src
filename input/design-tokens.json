@@ -510,7 +510,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-navy.70}",
+        "value": "{color-base-green.70}",
         "type": "color"
       },
       "disabled": {
