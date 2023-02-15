@@ -6,7 +6,7 @@ With the increased usage of Figma and Tokens Studio (aka Figma Tokens) to help d
 The degree of integration between design and development fall on a spectrum; the above example on one side, with fully automated workflows on the other. This demo code is meant to show how we can move a step or two from manual workflows toward the automated side.
 
 ## High-level workflow
-Design Tokens -> push to repo -> transform tokens -> output to css variables -> push css variables to project/component code -> build code components
+Design Tokens -> push to repo -> transform tokens -> output to css variables -> push css variables to project/component code -> build code components -> deploy Storybook to GH pages
 
 
 ### Tools
