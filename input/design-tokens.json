@@ -506,11 +506,11 @@
   "brand-a": {
     "color-primary": {
       "default": {
-        "value": "{color-base-green.60}",
+        "value": "{color-base-navy.60}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-green.70}",
+        "value": "{color-base-navy.70}",
         "type": "color"
       },
       "disabled": {
@@ -546,7 +546,7 @@
       "typography": {
         "lg": {
           "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
+            "fontFamily": "{font-face-base.mono}",
             "fontWeight": "{font-weight-base.medium}",
             "fontSize": "{font-size-label.lg}",
             "textCase": "none"
@@ -555,9 +555,10 @@
         },
         "sm": {
           "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
+            "fontFamily": "{font-face-base.mono}",
             "fontWeight": "{font-weight-base.medium}",
-            "fontSize": "{font-size-label.xs}"
+            "fontSize": "{font-size-label.xs}",
+            "textCase": "none"
           },
           "type": "typography"
         }
@@ -625,18 +626,19 @@
       "typography": {
         "lg": {
           "value": {
-            "fontFamily": "{font-face-base.mono}",
+            "fontFamily": "{font-face-base.sans-serif}",
             "fontWeight": "{font-weight-base.regular}",
             "fontSize": "{font-size-label.lg}",
-            "textCase": "uppercase"
+            "textCase": "none"
           },
           "type": "typography"
         },
         "sm": {
           "value": {
-            "fontFamily": "{font-face-base.mono}",
+            "fontFamily": "{font-face-base.sans-serif}",
             "fontWeight": "{font-weight-base.regular}",
-            "fontSize": "{font-size-label.xs}"
+            "fontSize": "{font-size-label.xs}",
+            "textCase": "none"
           },
           "type": "typography"
         }
