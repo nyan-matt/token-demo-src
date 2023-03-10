@@ -1,11 +1,11 @@
 {
   "color-primary": {
     "default": {
-      "value": "#0f992e",
+      "value": "#0a4173",
       "type": "color"
     },
     "hover": {
-      "value": "#0d8227",
+      "value": "#093762",
       "type": "color"
     },
     "disabled": {
@@ -41,7 +41,7 @@
     "typography": {
       "lg": {
         "fontFamily": {
-          "value": "'Inter', Helvetica, Arial, sans-serif",
+          "value": "'Consolas', Courier, monospace",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -59,7 +59,7 @@
       },
       "sm": {
         "fontFamily": {
-          "value": "'Inter', Helvetica, Arial, sans-serif",
+          "value": "'Consolas', Courier, monospace",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -69,6 +69,10 @@
         "fontSize": {
           "value": "12px",
           "type": "fontSizes"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
         }
       }
     },

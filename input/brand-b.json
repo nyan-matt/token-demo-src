@@ -41,7 +41,7 @@
     "typography": {
       "lg": {
         "fontFamily": {
-          "value": "'Consolas', Courier, monospace",
+          "value": "'Inter', Helvetica, Arial, sans-serif",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -53,13 +53,13 @@
           "type": "fontSizes"
         },
         "textCase": {
-          "value": "uppercase",
+          "value": "none",
           "type": "textCase"
         }
       },
       "sm": {
         "fontFamily": {
-          "value": "'Consolas', Courier, monospace",
+          "value": "'Inter', Helvetica, Arial, sans-serif",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -69,6 +69,10 @@
         "fontSize": {
           "value": "12px",
           "type": "fontSizes"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
         }
       }
     },
