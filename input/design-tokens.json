@@ -498,7 +498,7 @@
     },
     "color-test": {
       "ci-trigger": {
-        "value": "yellow",
+        "value": "orange",
         "type": "color"
       }
     }
