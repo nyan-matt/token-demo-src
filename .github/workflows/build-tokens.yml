@@ -10,8 +10,12 @@ jobs:
         uses: actions/setup-node@v2.4.0
       - run: npm install
       - run: npx token-transformer input/design-tokens.json input/base.json base
-      - run: npx token-transformer input/design-tokens.json input/brand-a.json base,brand-a base --expandTypography=true
-      - run: npx token-transformer input/design-tokens.json input/brand-b.json base,brand-b base --expandTypography=true
+      - run:
+          npx token-transformer input/design-tokens.json input/brand-a.json
+          base,brand-a base --expandTypography=true
+      - run:
+          npx token-transformer input/design-tokens.json input/brand-b.json
+          base,brand-b base --expandTypography=true
       - run: node build.js
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -25,10 +29,10 @@ jobs:
           personal_token: ${{ secrets.GH_PAT }}
           src_branch: main
           src_path: output/.
-          dst_owner: nyan-matt
+          dst_owner: tangcuyu
           dst_repo_name: stencil-storybook-token-demo
           dst_branch: main
           dst_path: src/css/.
-          username: nyan-matt
-          email: matt.rea@gmail.com
+          username: tangcuyu
+          email: joysmshr@126.com
           commit_message: copy css tokens
