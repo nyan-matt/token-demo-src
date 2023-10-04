@@ -29,7 +29,7 @@ jobs:
           personal_token: ${{ secrets.GH_PAT }}
           src_branch: main
           src_path: output/.
-          dst_owner: tangcuyu
+          dst_owner: Tangcuyu
           dst_repo_name: stencil-storybook-token-demo
           dst_branch: main
           dst_path: src/css/.
