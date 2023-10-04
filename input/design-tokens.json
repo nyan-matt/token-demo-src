@@ -506,11 +506,11 @@
   "brand-a": {
     "color-primary": {
       "default": {
-        "value": "{color-base-green.40}",
+        "value": "{color-base-pink.40}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-green.70}",
+        "value": "{color-base-pink.70}",
         "type": "color"
       },
       "disabled": {
@@ -520,7 +520,7 @@
     },
     "button": {
       "radius": {
-        "value": "{radius-base.lg}",
+        "value": "{radius-base.min}",
         "type": "borderRadius"
       },
       "padding": {
