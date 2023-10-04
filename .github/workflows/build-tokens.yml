@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: andstor/copycat-action@v3.2.4
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.GH_PAT }}
           src_branch: main
           src_path: output/.
           dst_owner: Tangcuyu
