@@ -1,11 +1,11 @@
 {
   "color-primary": {
     "default": {
-      "value": "#57b86d",
+      "value": "#a953a0",
       "type": "color"
     },
     "hover": {
-      "value": "#0d8227",
+      "value": "#700865",
       "type": "color"
     },
     "disabled": {
@@ -15,7 +15,7 @@
   },
   "button": {
     "radius": {
-      "value": "48px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "padding": {
