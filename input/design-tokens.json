@@ -506,11 +506,11 @@
   "brand-a": {
     "color-primary": {
       "default": {
-        "value": "{color-base-red.40}",
+        "value": "{color-base-pink.40}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-red.70}",
+        "value": "{color-base-pink.70}",
         "type": "color"
       },
       "disabled": {
@@ -520,7 +520,7 @@
     },
     "button": {
       "radius": {
-        "value": "{radius-base.lg}",
+        "value": "{radius-base.min}",
         "type": "borderRadius"
       },
       "padding": {
@@ -586,21 +586,21 @@
   "brand-b": {
     "color-primary": {
       "default": {
-        "value": "{color-base-pink.60}",
+        "value": "{color-base-blue.40}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-pink.70}",
+        "value": "{color-base-blue.70}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color-base-pink.10}",
+        "value": "{color-base-neutral-light.60}",
         "type": "color"
       }
     },
     "button": {
       "radius": {
-        "value": "{radius-base.min}",
+        "value": "{radius-base.md}",
         "type": "borderRadius"
       },
       "padding": {

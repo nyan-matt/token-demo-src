@@ -1,8 +1,8 @@
 .brand-a-theme {
-          --color-primary-default: #d85959;
-  --color-primary-hover: #a90f0f;
+          --color-primary-default: #a953a0;
+  --color-primary-hover: #700865;
   --color-primary-disabled: #c2d0dc;
-  --button-radius: 48px;
+  --button-radius: 4px;
   --button-padding-left: 16px;
   --button-padding-right: 16px;
   --button-height-lg: 36px;
