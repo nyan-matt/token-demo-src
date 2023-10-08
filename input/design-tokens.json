@@ -743,14 +743,6 @@
       }
     }
   },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "base",
-      "brand-a",
-      "brand-b"
-    ]
-  },
   "custom": {
     "color-base-neutral-dark": {
       "10": {
@@ -2451,7 +2443,8 @@
         "path": [
           "spacing",
           "xsm"
-        ]
+        ],
+        "type": "spacing"
       },
       "sm": {
         "value": "8px",
@@ -2467,7 +2460,8 @@
         "path": [
           "spacing",
           "sm"
-        ]
+        ],
+        "type": "spacing"
       },
       "md": {
         "value": "12px",
@@ -2483,7 +2477,8 @@
         "path": [
           "spacing",
           "md"
-        ]
+        ],
+        "type": "spacing"
       },
       "lg": {
         "value": "16px",
@@ -2499,7 +2494,8 @@
         "path": [
           "spacing",
           "lg"
-        ]
+        ],
+        "type": "spacing"
       },
       "xlg": {
         "value": "24px",
@@ -2515,7 +2511,8 @@
         "path": [
           "spacing",
           "xlg"
-        ]
+        ],
+        "type": "spacing"
       },
       "xxlg": {
         "value": "32px",
@@ -2531,7 +2528,8 @@
         "path": [
           "spacing",
           "xxlg"
-        ]
+        ],
+        "type": "spacing"
       },
       "gutter": {
         "value": "{spacing.lg}",
@@ -2547,7 +2545,8 @@
         "path": [
           "spacing",
           "gutter"
-        ]
+        ],
+        "type": "spacing"
       }
     },
     "font_size": {
@@ -2567,7 +2566,8 @@
         "path": [
           "font_size",
           "header_1"
-        ]
+        ],
+        "type": "other"
       },
       "header_2": {
         "value": "20px",
@@ -2585,7 +2585,8 @@
         "path": [
           "font_size",
           "header_2"
-        ]
+        ],
+        "type": "other"
       },
       "title": {
         "value": "18px",
@@ -2603,7 +2604,8 @@
         "path": [
           "font_size",
           "title"
-        ]
+        ],
+        "type": "other"
       },
       "paragraph_1": {
         "value": "16px",
@@ -2621,7 +2623,8 @@
         "path": [
           "font_size",
           "paragraph_1"
-        ]
+        ],
+        "type": "other"
       },
       "paragraph_2": {
         "value": "15px",
@@ -2639,7 +2642,8 @@
         "path": [
           "font_size",
           "paragraph_2"
-        ]
+        ],
+        "type": "other"
       }
     },
     "line_height": {
@@ -2659,7 +2663,8 @@
         "path": [
           "line_height",
           "header_1"
-        ]
+        ],
+        "type": "other"
       },
       "header_2": {
         "value": "25px",
@@ -2677,7 +2682,8 @@
         "path": [
           "line_height",
           "header_2"
-        ]
+        ],
+        "type": "other"
       },
       "title": {
         "value": "24px",
@@ -2695,7 +2701,8 @@
         "path": [
           "line_height",
           "title"
-        ]
+        ],
+        "type": "other"
       },
       "paragraph_1": {
         "value": "22px",
@@ -2713,7 +2720,8 @@
         "path": [
           "line_height",
           "paragraph_1"
-        ]
+        ],
+        "type": "other"
       },
       "paragraph_2": {
         "value": "20px",
@@ -2731,8 +2739,19 @@
         "path": [
           "line_height",
           "paragraph_2"
-        ]
+        ],
+        "type": "other"
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "base",
+      "brand-a",
+      "brand-b",
+      "brand-c",
+      "custom"
+    ]
   }
 }
