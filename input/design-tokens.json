@@ -600,7 +600,7 @@
     },
     "button": {
       "radius": {
-        "value": "{radius-base.md}",
+        "value": "{radius-base.sm}",
         "type": "borderRadius"
       },
       "padding": {
