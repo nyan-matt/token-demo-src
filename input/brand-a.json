@@ -1,11 +1,11 @@
 {
   "color-primary": {
     "default": {
-      "value": "#a953a0",
+      "value": "#d85959",
       "type": "color"
     },
     "hover": {
-      "value": "#700865",
+      "value": "#e9a0a0",
       "type": "color"
     },
     "disabled": {
@@ -15,7 +15,7 @@
   },
   "button": {
     "radius": {
-      "value": "4px",
+      "value": "48px",
       "type": "borderRadius"
     },
     "padding": {
@@ -41,11 +41,11 @@
     "typography": {
       "lg": {
         "fontFamily": {
-          "value": "'Consolas', Courier, monospace",
+          "value": "Baskerville",
           "type": "fontFamilies"
         },
         "fontWeight": {
-          "value": 500,
+          "value": 400,
           "type": "fontWeights"
         },
         "fontSize": {
@@ -59,7 +59,7 @@
       },
       "sm": {
         "fontFamily": {
-          "value": "'Consolas', Courier, monospace",
+          "value": "'Inter', Helvetica, Arial, sans-serif",
           "type": "fontFamilies"
         },
         "fontWeight": {
@@ -77,7 +77,7 @@
       }
     },
     "font-family": {
-      "value": "'Consolas', Courier, monospace",
+      "value": "'Inter', Helvetica, Arial, sans-serif",
       "type": "fontFamilies"
     }
   },

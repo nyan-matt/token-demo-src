@@ -1,21 +1,21 @@
 .brand-a-theme {
-          --color-primary-default: #a953a0;
-  --color-primary-hover: #700865;
+          --color-primary-default: #d85959;
+  --color-primary-hover: #e9a0a0;
   --color-primary-disabled: #c2d0dc;
-  --button-radius: 4px;
+  --button-radius: 48px;
   --button-padding-left: 16px;
   --button-padding-right: 16px;
   --button-height-lg: 36px;
   --button-height-sm: 24px;
-  --button-typography-lg-font-family: 'Consolas', Courier, monospace;
-  --button-typography-lg-font-weight: 500;
+  --button-typography-lg-font-family: Baskerville;
+  --button-typography-lg-font-weight: 400;
   --button-typography-lg-font-size: 1rem;
   --button-typography-lg-text-case: none;
-  --button-typography-sm-font-family: 'Consolas', Courier, monospace;
+  --button-typography-sm-font-family: 'Inter', Helvetica, Arial, sans-serif;
   --button-typography-sm-font-weight: 500;
   --button-typography-sm-font-size: 0.75rem;
   --button-typography-sm-text-case: none;
-  --button-font-family: 'Consolas', Courier, monospace;
+  --button-font-family: 'Inter', Helvetica, Arial, sans-serif;
   --color-disabled-text: #a3a3a3;
   --color-disabled-background: #f5f5f5;
   --color-disabled-border: #adadad;
