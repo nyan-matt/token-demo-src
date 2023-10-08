@@ -506,11 +506,11 @@
   "brand-a": {
     "color-primary": {
       "default": {
-        "value": "{color-base-pink.40}",
+        "value": "{color-base-red.40}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-pink.70}",
+        "value": "{color-base-red.20}",
         "type": "color"
       },
       "disabled": {
@@ -520,7 +520,7 @@
     },
     "button": {
       "radius": {
-        "value": "{radius-base.min}",
+        "value": "{radius-base.lg}",
         "type": "borderRadius"
       },
       "padding": {
@@ -546,8 +546,8 @@
       "typography": {
         "lg": {
           "value": {
-            "fontFamily": "{font-face-base.mono}",
-            "fontWeight": "{font-weight-base.medium}",
+            "fontFamily": "{font-face-base.serif}",
+            "fontWeight": "{font-weight-base.regular}",
             "fontSize": "{font-size-label.lg}",
             "textCase": "none"
           },
@@ -555,7 +555,7 @@
         },
         "sm": {
           "value": {
-            "fontFamily": "{font-face-base.mono}",
+            "fontFamily": "{font-face-base.sans-serif}",
             "fontWeight": "{font-weight-base.medium}",
             "fontSize": "{font-size-label.xs}",
             "textCase": "none"
@@ -564,7 +564,7 @@
         }
       },
       "font-family": {
-        "value": "{font-face-base.mono}",
+        "value": "{font-face-base.sans-serif}",
         "type": "fontFamilies"
       }
     },
@@ -586,11 +586,11 @@
   "brand-b": {
     "color-primary": {
       "default": {
-        "value": "{color-base-blue.40}",
+        "value": "{color-base-green.40}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-blue.70}",
+        "value": "{color-base-green.70}",
         "type": "color"
       },
       "disabled": {
