@@ -520,7 +520,7 @@
     },
     "button": {
       "radius": {
-        "value": "{radius-base.lg}",
+        "value": "{radius-base.sm}",
         "type": "borderRadius"
       },
       "padding": {
