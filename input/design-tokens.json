@@ -574,7 +574,7 @@
         "type": "color"
       },
       "background": {
-        "value": "{color-test.ci-trigger}",
+        "value": "{color-primary.disabled}",
         "type": "color"
       },
       "border": {
