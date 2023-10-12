@@ -15,7 +15,7 @@
   },
   "button": {
     "radius": {
-      "value": "12px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "padding": {
