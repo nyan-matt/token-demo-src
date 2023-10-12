@@ -520,7 +520,7 @@
     },
     "button": {
       "radius": {
-        "value": "{radius-base.sm}",
+        "value": "{radius-base.min}",
         "type": "borderRadius"
       },
       "padding": {
@@ -586,11 +586,11 @@
   "brand-b": {
     "color-primary": {
       "default": {
-        "value": "{color-base-green.40}",
+        "value": "{color-base-blue.40}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-green.70}",
+        "value": "{color-base-blue.70}",
         "type": "color"
       },
       "disabled": {
