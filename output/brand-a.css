@@ -3,7 +3,7 @@
   --color-primary-hover: #e9a0a0;
   --color-primary-disabled: #c2d0dc;
   --button-radius: 4px;
-  --button-padding-left: 16px;
+  --button-padding-left: 0px;
   --button-padding-right: 16px;
   --button-height-lg: 36px;
   --button-height-sm: 24px;
@@ -19,5 +19,9 @@
   --color-disabled-text: #a3a3a3;
   --color-disabled-background: #c2d0dc;
   --color-disabled-border: #adadad;
-  --title-main-lg: 16px;
+  --card-header-lg: 0px;
+  --card-width-unit: 480px;
+  --card-width-sm: 960px;
+  --card-body: 16px;
+  --card-height-unit: 270px;
       }

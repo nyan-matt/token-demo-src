@@ -503,33 +503,59 @@
       "description": "color-starbucks"
     }
   },
-  "sizing-base": {
+  "sizing-base-h": {
     "unit": {
-      "value": "16px",
+      "value": "480px",
       "type": "sizing"
     },
     "xs": {
-      "value": "32px",
+      "value": "960px",
       "type": "sizing"
     },
     "sm": {
-      "value": "48px",
+      "value": "1440px",
       "type": "sizing"
     },
     "md": {
-      "value": "64px",
+      "value": "1920px",
       "type": "sizing"
     },
     "lg": {
-      "value": "80px",
+      "value": "2400px",
       "type": "sizing"
     },
     "xl": {
-      "value": "1280px",
+      "value": "2880px",
       "type": "sizing"
     },
     "xxl": {
-      "value": "3200px",
+      "value": "3360px",
+      "type": "sizing"
+    }
+  },
+  "sizing-base-v": {
+    "unit": {
+      "value": "270px",
+      "type": "sizing"
+    },
+    "xs": {
+      "value": "540px",
+      "type": "sizing"
+    },
+    "sm": {
+      "value": "810px",
+      "type": "sizing"
+    },
+    "md": {
+      "value": "1080px",
+      "type": "sizing"
+    },
+    "lg": {
+      "value": "1350px",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "1620px",
       "type": "sizing"
     }
   }

@@ -20,7 +20,7 @@
     },
     "padding": {
       "left": {
-        "value": "16px",
+        "value": "0px",
         "type": "spacing"
       },
       "right": {
@@ -95,11 +95,32 @@
       "type": "color"
     }
   },
-  "title": {
-    "main": {
+  "card": {
+    "header": {
       "lg": {
-        "value": "16px",
+        "value": "0px",
         "type": "spacing"
+      }
+    },
+    "width": {
+      "unit": {
+        "value": "480px",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "960px",
+        "type": "sizing",
+        "description": "小尺寸卡片宽度"
+      }
+    },
+    "body": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "height": {
+      "unit": {
+        "value": "270px",
+        "type": "sizing"
       }
     }
   }
