@@ -667,6 +667,10 @@
           "value": "{sizing-base-v.unit}",
           "type": "sizing"
         }
+      },
+      "radius": {
+        "value": "{radius-base.md}",
+        "type": "borderRadius"
       }
     }
   },
@@ -752,6 +756,14 @@
     "button-magrin-bottom": {
       "value": "{spacing-base.md}",
       "type": "spacing"
+    },
+    "card": {
+      "width": {
+        "unit": {
+          "value": "{sizing-base-h.xs}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "brand-c": {
