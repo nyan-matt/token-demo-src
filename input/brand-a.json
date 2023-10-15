@@ -94,5 +94,13 @@
       "value": "#adadad",
       "type": "color"
     }
+  },
+  "title": {
+    "main": {
+      "lg": {
+        "value": "16px",
+        "type": "spacing"
+      }
+    }
   }
 }

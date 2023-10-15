@@ -179,7 +179,8 @@
     },
     "50": {
       "value": "#cf3636",
-      "type": "color"
+      "type": "color",
+      "description": "A red color"
     },
     "60": {
       "value": "#c71212",
@@ -495,10 +496,41 @@
       "type": "color"
     }
   },
-  "color-test": {
-    "ci-trigger": {
-      "value": "orange",
-      "type": "color"
+  "color-base-starbucks": {
+    "logo": {
+      "value": "#006241",
+      "type": "color",
+      "description": "color-starbucks"
+    }
+  },
+  "sizing-base": {
+    "unit": {
+      "value": "16px",
+      "type": "sizing"
+    },
+    "xs": {
+      "value": "32px",
+      "type": "sizing"
+    },
+    "sm": {
+      "value": "48px",
+      "type": "sizing"
+    },
+    "md": {
+      "value": "64px",
+      "type": "sizing"
+    },
+    "lg": {
+      "value": "80px",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "1280px",
+      "type": "sizing"
+    },
+    "xxl": {
+      "value": "3200px",
+      "type": "sizing"
     }
   }
 }

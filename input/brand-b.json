@@ -94,5 +94,9 @@
       "value": "#adadad",
       "type": "color"
     }
+  },
+  "button-magrin-bottom": {
+    "value": "24px",
+    "type": "spacing"
   }
 }

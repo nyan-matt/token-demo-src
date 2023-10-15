@@ -115,5 +115,12 @@
   --color-base-neutral-light-80: #ebebeb;
   --color-base-neutral-light-90: #f5f5f5;
   --color-base-neutral-light-100: #ffffff;
-  --color-test-ci-trigger: orange;
+  --color-base-starbucks-logo: #006241;
+  --sizing-base-unit: 16px;
+  --sizing-base-xs: 32px;
+  --sizing-base-sm: 48px;
+  --sizing-base-md: 64px;
+  --sizing-base-lg: 80px;
+  --sizing-base-xl: 1280px;
+  --sizing-base-xxl: 3200px;
       }
