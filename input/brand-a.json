@@ -122,6 +122,10 @@
         "value": "270px",
         "type": "sizing"
       }
+    },
+    "radius": {
+      "value": "24px",
+      "type": "borderRadius"
     }
   }
 }

@@ -98,5 +98,13 @@
   "button-magrin-bottom": {
     "value": "24px",
     "type": "spacing"
+  },
+  "card": {
+    "width": {
+      "unit": {
+        "value": "960px",
+        "type": "sizing"
+      }
+    }
   }
 }
