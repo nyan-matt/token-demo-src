@@ -504,33 +504,59 @@
         "description": "color-starbucks"
       }
     },
-    "sizing-base": {
+    "sizing-base-h": {
       "unit": {
-        "value": "16px",
+        "value": "480px",
         "type": "sizing"
       },
       "xs": {
-        "value": "{sizing-base.unit} * 2",
+        "value": "{sizing-base-h.unit} * 2",
         "type": "sizing"
       },
       "sm": {
-        "value": "{sizing-base.unit} * 3",
+        "value": "{sizing-base-h.unit} * 3",
         "type": "sizing"
       },
       "md": {
-        "value": "{sizing-base.unit} * 4",
+        "value": "{sizing-base-h.unit} * 4",
         "type": "sizing"
       },
       "lg": {
-        "value": "{sizing-base.unit} * 5",
+        "value": "{sizing-base-h.unit} * 5",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sizing-base.unit} * 80",
+        "value": "{sizing-base-h.unit} * 6",
         "type": "sizing"
       },
       "xxl": {
-        "value": "{sizing-base.unit} * 200",
+        "value": "{sizing-base-h.unit} * 7",
+        "type": "sizing"
+      }
+    },
+    "sizing-base-v": {
+      "unit": {
+        "value": "270px",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "{sizing-base-v.unit} * 2",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{sizing-base-v.unit} * 3",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{sizing-base-v.unit} * 4",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{sizing-base-v.unit} * 5",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{sizing-base-v.unit} * 6",
         "type": "sizing"
       }
     }
@@ -557,7 +583,7 @@
       },
       "padding": {
         "left": {
-          "value": "{spacing-base.sm}",
+          "value": "{spacing-base.none}",
           "type": "spacing"
         },
         "right": {
@@ -614,11 +640,32 @@
         "type": "color"
       }
     },
-    "title": {
-      "main": {
+    "card": {
+      "header": {
         "lg": {
           "value": "{button.padding.left}",
           "type": "spacing"
+        }
+      },
+      "width": {
+        "unit": {
+          "value": "{sizing-base-h.unit}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{sizing-base-h.xs}",
+          "type": "sizing",
+          "description": "小尺寸卡片宽度"
+        }
+      },
+      "body": {
+        "value": "{spacing-base.sm}",
+        "type": "spacing"
+      },
+      "height": {
+        "unit": {
+          "value": "{sizing-base-v.unit}",
+          "type": "sizing"
         }
       }
     }
