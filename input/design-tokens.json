@@ -180,7 +180,8 @@
       },
       "50": {
         "value": "#cf3636",
-        "type": "color"
+        "type": "color",
+        "description": "A red color"
       },
       "60": {
         "value": "#c71212",
@@ -496,10 +497,41 @@
         "type": "color"
       }
     },
-    "color-test": {
-      "ci-trigger": {
-        "value": "orange",
-        "type": "color"
+    "color-base-starbucks": {
+      "logo": {
+        "value": "#006241",
+        "type": "color",
+        "description": "color-starbucks"
+      }
+    },
+    "sizing-base": {
+      "unit": {
+        "value": "16px",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "{sizing-base.unit} * 2",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{sizing-base.unit} * 3",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{sizing-base.unit} * 4",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{sizing-base.unit} * 5",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{sizing-base.unit} * 80",
+        "type": "sizing"
+      },
+      "xxl": {
+        "value": "{sizing-base.unit} * 200",
+        "type": "sizing"
       }
     }
   },
@@ -581,6 +613,14 @@
         "value": "{color-base-neutral-light.20}",
         "type": "color"
       }
+    },
+    "title": {
+      "main": {
+        "lg": {
+          "value": "{button.padding.left}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "brand-b": {
@@ -661,6 +701,10 @@
         "value": "{color-base-neutral-light.20}",
         "type": "color"
       }
+    },
+    "button-magrin-bottom": {
+      "value": "{spacing-base.md}",
+      "type": "spacing"
     }
   },
   "brand-c": {
@@ -740,6 +784,18 @@
       "border": {
         "value": "{color-base-neutral-light.20}",
         "type": "color"
+      }
+    },
+    "card": {
+      "header": {
+        "title": {
+          "value": "16px 120px 16px 16px",
+          "type": "spacing"
+        }
+      },
+      "md": {
+        "value": "{radius-base.md}",
+        "type": "borderRadius"
       }
     }
   },
@@ -2356,7 +2412,7 @@
     },
     "font-weight-base": {
       "thin": {
-        "value": 300,
+        "value": "300",
         "type": "fontWeights",
         "filePath": "src/globals/font/index.json5",
         "isSource": true,
@@ -2374,7 +2430,7 @@
         ]
       },
       "regular": {
-        "value": 400,
+        "value": "400",
         "type": "fontWeights",
         "filePath": "src/globals/font/index.json5",
         "isSource": true,
@@ -2392,7 +2448,7 @@
         ]
       },
       "medium": {
-        "value": 500,
+        "value": "500",
         "type": "fontWeights",
         "filePath": "src/globals/font/index.json5",
         "isSource": true,
@@ -2410,7 +2466,7 @@
         ]
       },
       "bold": {
-        "value": 600,
+        "value": "600",
         "type": "fontWeights",
         "filePath": "src/globals/font/index.json5",
         "isSource": true,
@@ -2742,6 +2798,11 @@
         ],
         "type": "other"
       }
+    },
+    "color-starbucks-logo-copy": {
+      "value": "#006241",
+      "type": "color",
+      "description": "color-starbucks"
     }
   },
   "$themes": [],
