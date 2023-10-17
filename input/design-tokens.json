@@ -34,29 +34,57 @@
         "type": "spacing"
       }
     },
-    "color-primary-bg": {
-      "value": "#f0f9ff",
-      "type": "color"
-    },
-    "color-primary-bg-hover": {
-      "value": "#e0f2ff",
-      "type": "color"
-    },
-    "color-primary-border": {
-      "value": "#aed4f2",
-      "type": "color"
-    },
-    "color-primary-border-hover": {
-      "value": "#81b5e6",
-      "type": "color"
-    },
-    "color-primary-hover": {
-      "value": "#5796d9",
-      "type": "color"
-    },
-    "color-primary": {
-      "value": "#3076cc",
-      "type": "color"
+    "brand": {
+      "color-primary-bg": {
+        "value": "#f0f9ff",
+        "type": "color",
+        "description": "主色浅色背景色"
+      },
+      "color-primary-bg-hover": {
+        "value": "#e0f2ff",
+        "type": "color",
+        "description": "主色浅色背景悬浮态"
+      },
+      "color-primary-border": {
+        "value": "#aed4f2",
+        "type": "color",
+        "description": "主色描边色"
+      },
+      "color-primary-border-hover": {
+        "value": "#81b5e6",
+        "type": "color",
+        "description": "主色描边色悬浮态"
+      },
+      "color-primary-hover": {
+        "value": "#5796d9",
+        "type": "color",
+        "description": "主色悬浮态"
+      },
+      "color-primary": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "品牌主色"
+      },
+      "color-primary-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "主色激活态"
+      },
+      "color-primary-text-hover": {
+        "value": "#5796d9",
+        "type": "color",
+        "description": "主色文本悬浮态"
+      },
+      "color-primary-text": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "主色文本"
+      },
+      "color-primary-text-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "主色文本激活态"
+      }
     },
     "font-face-base": {
       "sans-serif": {
@@ -236,6 +264,319 @@
       "xl": {
         "value": "{sizing-base-v.unit} * 6",
         "type": "sizing"
+      }
+    },
+    "success": {
+      "color-success-bg": {
+        "value": "#f6ffed",
+        "type": "color",
+        "description": "成功色的浅色背景颜色"
+      },
+      "color-success-bg-hover": {
+        "value": "#d9f7be",
+        "type": "color",
+        "description": "成功色的浅色背景悬浮态"
+      },
+      "color-success-border": {
+        "value": "#b7eb8f",
+        "type": "color",
+        "description": "成功色的描边色"
+      },
+      "color-success-border-hover": {
+        "value": "#95de64",
+        "type": "color",
+        "description": "成功色的描边色悬浮态"
+      },
+      "color-success-hover": {
+        "value": "#95de64",
+        "type": "color",
+        "description": "成功色的深色悬浮态"
+      },
+      "color-success": {
+        "value": "#52c41a",
+        "type": "color",
+        "description": "成功色"
+      },
+      "color-success-active": {
+        "value": "#389e0d",
+        "type": "color",
+        "description": "成功色的深色激活态"
+      },
+      "color-success-text-hover": {
+        "value": "#73d13d",
+        "type": "color",
+        "description": "成功色的文本悬浮态"
+      },
+      "color-success-text": {
+        "value": "#52c41a",
+        "type": "color",
+        "description": "成功色的文本默认态"
+      },
+      "color-success-text-active": {
+        "value": "#389e0d",
+        "type": "color",
+        "description": "成功色的文本激活态"
+      }
+    },
+    "warning": {
+      "color-warning-bg": {
+        "value": "#fffbe6",
+        "type": "color",
+        "description": "警戒色的浅色背景颜色"
+      },
+      "color-warning-bg-hover": {
+        "value": "#fff1b8",
+        "type": "color",
+        "description": "警戒色的浅色背景悬浮态"
+      },
+      "color-warning-border": {
+        "value": "#ffe58f",
+        "type": "color",
+        "description": "警戒色的描边色"
+      },
+      "color-warning-border-hover": {
+        "value": "#ffd666",
+        "type": "color",
+        "description": "警戒色的描边色悬浮态"
+      },
+      "color-warning-hover": {
+        "value": "#ffd666",
+        "type": "color",
+        "description": "警戒色的深色悬浮态"
+      },
+      "color-warning": {
+        "value": "#faad14",
+        "type": "color",
+        "description": "警戒色"
+      },
+      "color-warning-active": {
+        "value": "#d48806",
+        "type": "color",
+        "description": "警戒色的深色激活态"
+      },
+      "color-warning-text-hover": {
+        "value": "#ffc53d",
+        "type": "color",
+        "description": "警戒色的文本悬浮态"
+      },
+      "color-warning-text": {
+        "value": "#faad14",
+        "type": "color",
+        "description": "警戒色的文本默认态"
+      },
+      "color-warning-text-active": {
+        "value": "#d48806",
+        "type": "color",
+        "description": "警戒色的文本激活态"
+      }
+    },
+    "error": {
+      "color-error-bg": {
+        "value": "#fff2f0",
+        "type": "color",
+        "description": "错误色的浅色背景颜色"
+      },
+      "color-error-bg-hover": {
+        "value": "#fff1f0",
+        "type": "color",
+        "description": "错误色的浅色背景色悬浮态"
+      },
+      "color-error-border": {
+        "value": "#ffccc7",
+        "type": "color",
+        "description": "错误色的描边色"
+      },
+      "color-error-border-hover": {
+        "value": "#ffa39e",
+        "type": "color",
+        "description": "错误色的描边色悬浮态"
+      },
+      "color-error-hover": {
+        "value": "#ff7875",
+        "type": "color",
+        "description": "错误色的深色悬浮态"
+      },
+      "color-error": {
+        "value": "#ff4d4f",
+        "type": "color",
+        "description": "错误色"
+      },
+      "color-error-active": {
+        "value": "#d9363e",
+        "type": "color",
+        "description": "错误色的深色激活态"
+      },
+      "color-error-text-hover": {
+        "value": "#ff7875",
+        "type": "color",
+        "description": "错误色的文本悬浮态"
+      },
+      "color-error-text": {
+        "value": "#ff4d4f",
+        "type": "color",
+        "description": "错误色的文本默认态"
+      },
+      "color-error-text-active": {
+        "value": "#d9363e",
+        "type": "color",
+        "description": "错误色的文本激活态"
+      }
+    },
+    "info": {
+      "color-info-bg": {
+        "value": "#eaf4ff",
+        "type": "color",
+        "description": "信息色的浅色背景颜色"
+      },
+      "color-info-bg-hover": {
+        "value": "#e0f2ff",
+        "type": "color",
+        "description": "信息色的浅色背景悬浮态"
+      },
+      "color-info-border": {
+        "value": "#97c3f2",
+        "type": "color",
+        "description": "信息色的描边色"
+      },
+      "color-info-border-hover": {
+        "value": "#81b5e6",
+        "type": "color",
+        "description": "信息色的描边色悬浮态"
+      },
+      "color-info-hover": {
+        "value": "#4196f0",
+        "type": "color",
+        "description": "信息色的深色悬浮态"
+      },
+      "color-info": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "信息色"
+      },
+      "color-info-active": {
+        "value": "#277cd6",
+        "type": "color",
+        "description": "信息色的深色激活态"
+      },
+      "color-info-text-hover": {
+        "value": "#4196f0",
+        "type": "color",
+        "description": "信息色的文本悬浮态"
+      },
+      "color-info-text": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "信息色的文本默认态"
+      },
+      "color-info-text-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "信息色的文本激活态"
+      }
+    },
+    "link": {
+      "color-link": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "链接色"
+      },
+      "color-link-hover": {
+        "value": "#81b5e6",
+        "type": "color",
+        "description": "超链接悬浮颜色"
+      },
+      "color-link-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "超链接激活颜色"
+      }
+    },
+    "text": {
+      "color-text-base": {
+        "value": "#000000",
+        "type": "color",
+        "description": "基础文本色"
+      },
+      "color-text": {
+        "value": "rgba(0,0,0,0.88)",
+        "type": "color",
+        "description": "一级文本色"
+      },
+      "color-text-secondary": {
+        "value": "rgba(0,0,0,0.65)",
+        "type": "color",
+        "description": "二级文本色"
+      },
+      "color-text-tertiary": {
+        "value": "rgba(0,0,0,0.45)",
+        "type": "color",
+        "description": "三级文本色"
+      },
+      "color-text-quaternary": {
+        "value": "rgba(0,0,0,0.25)",
+        "type": "color",
+        "description": "四级文本色"
+      }
+    },
+    "border": {
+      "color-border": {
+        "value": "#d9d9d9",
+        "type": "color",
+        "description": "一级边框色"
+      },
+      "color-border-secondary": {
+        "value": "#f0f0f0",
+        "type": "color",
+        "description": "二级边框色"
+      }
+    },
+    "fill": {
+      "color-fill": {
+        "value": "rgba(0,0,0,0.15)",
+        "type": "color",
+        "description": "一级填充"
+      },
+      "color-fill-secondary": {
+        "value": "rgba(0,0,0,0.06)",
+        "type": "color",
+        "description": "二级填充"
+      },
+      "color-fill-tertiary": {
+        "value": "rgba(0,0,0,0.04)",
+        "type": "color",
+        "description": "三级填充"
+      },
+      "color-fill-quaternary": {
+        "value": "rgba(0,0,0,0.02)",
+        "type": "color",
+        "description": "四级填充"
+      }
+    },
+    "background": {
+      "color-bg-container": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "组件容器背景色"
+      },
+      "color-bg-elevated": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "浮层容器背景色"
+      },
+      "color-bg-layout": {
+        "value": "#f5f5f5",
+        "type": "color",
+        "description": "布局背景色"
+      },
+      "color-bg-spotlight": {
+        "value": "rgba(0,0,0,0.85)",
+        "type": "color",
+        "description": "引起注意的背景色"
+      },
+      "color-bg-mask": {
+        "value": "rgba(0,0,0,0.45)",
+        "type": "color",
+        "description": "浮层的背景蒙层颜色"
       }
     }
   },
