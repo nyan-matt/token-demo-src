@@ -86,84 +86,46 @@
         "description": "主色文本激活态"
       }
     },
-    "font-face-base": {
-      "sans-serif": {
-        "value": "'Inter', Helvetica, Arial, sans-serif",
-        "type": "fontFamilies"
-      },
-      "serif": {
-        "value": "Baskerville",
-        "type": "fontFamilies"
-      },
-      "mono": {
-        "value": "'Consolas', Courier, monospace",
-        "type": "fontFamilies"
-      }
-    },
-    "font-size-display": {
-      "xs": {
+    "font-size": {
+      "default": {
         "value": "14px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "中等字号(默认字号)"
       },
       "sm": {
-        "value": "16px",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "18px",
-        "type": "fontSizes"
-      },
-      "lg": {
-        "value": "24px",
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": "32px",
-        "type": "fontSizes"
-      },
-      "xxl": {
-        "value": "48px",
-        "type": "fontSizes"
-      }
-    },
-    "font-size-label": {
-      "xs": {
         "value": "12px",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "13px",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "14px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "小字号"
       },
       "lg": {
         "value": "16px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "大字号"
       },
       "xl": {
-        "value": "17px",
-        "type": "fontSizes"
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "超大字号"
       },
-      "xxl": {
-        "value": "18px",
-        "type": "fontSizes"
-      }
-    },
-    "font-size-body": {
-      "sm": {
-        "value": "14px",
-        "type": "fontSizes"
+      "heading1": {
+        "value": "24px",
+        "type": "fontSizes",
+        "description": "一级标题字号"
       },
-      "md": {
+      "heading2": {
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "二级标题字号"
+      },
+      "heading3": {
         "value": "16px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "三级标题字号"
       },
-      "lg": {
-        "value": "18px",
-        "type": "fontSizes"
+      "heading4": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "四级标题字号"
       }
     },
     "font-weight-base": {
@@ -577,6 +539,105 @@
         "value": "rgba(0,0,0,0.45)",
         "type": "color",
         "description": "浮层的背景蒙层颜色"
+      }
+    },
+    "fontBase": {
+      "fontFamily-apple-system": {
+        "value": "'-apple-system'",
+        "type": "fontFamilies",
+        "description": "-apple-system targets San Francisco in Safari (on Mac OS X and iOS), and it targets Neue Helvetica and Lucida Grande on older versions of Mac OS X. It properly selects between San Francisco Text and San Francisco Display depending on the text’s size"
+      },
+      "fontFamily-blink": {
+        "value": "'BlinkMacSystemFont'",
+        "type": "fontFamilies",
+        "description": "Apple system font full version"
+      },
+      "fontFamily-SegoeUi": {
+        "value": "'Segoe UI'",
+        "type": "fontFamilies",
+        "description": "Segoe UI targets Windows and Windows Phone."
+      },
+      "fontFamily-Roboto": {
+        "value": "'Roboto'",
+        "type": "fontFamilies",
+        "description": "Roboto targets Android and newer Chrome OS. It is deliberately listed after Segoe UI so that if you’re an Android developer on Windows and have Roboto installed, Segoe UI will be used instead."
+      },
+      "fontFamily-HelveticaNeue": {
+        "value": "'Helvetica Neue'",
+        "type": "fontFamilies",
+        "description": "Helvetica Neue is a sans-serif typeface that is inspiring designers with its unique and appealing characters and width for a long time. The font came to the surface in 1957 by a typeface designer Max Miedinger belongs to Swiss. "
+      },
+      "fontFamily-Arial": {
+        "value": "'Arial'",
+        "type": "fontFamilies",
+        "description": "Arial is an extremely versatile family of typefaces which can be used with equal success for text setting in reports, presentations, magazines etc, and for display use in newspapers, advertising and promotions."
+      },
+      "fontFamily-NotoSans": {
+        "value": "'Noto Sans'",
+        "type": "fontFamilies",
+        "description": "Noto Sans is an unmodulated (“sans serif”) design for texts in the Latin, Cyrillic and Greek scripts, which is also suitable as the complementary choice for other script-specific Noto Sans fonts."
+      },
+      "fontFamily-sans-serif": {
+        "value": "'sans-serif'",
+        "type": "fontFamilies",
+        "description": "A sans serif—or simply “sans”—is a typeface designed without serif.Examples of sans serif typefaces include Roboto, Open Sans, Poppins, Noto Sans, Work Sans, and Epilogue."
+      },
+      "fontFamily-AppleColorEmoji": {
+        "value": "'Apple Color Emoji'",
+        "type": "fontFamilies",
+        "description": "Apple Color Emoji (stylized as AppleColorEmoji) is a color typeface used on Apple platforms such as iOS and macOS to display Emoji characters."
+      },
+      "fontFamily-SegoeUIEmoji": {
+        "value": "'Segoe UI Emoji'",
+        "type": "fontFamilies",
+        "description": "Segoe (/ˈsiːɡoʊ/ SEE-goh) is a typeface, or family of fonts, that is best known for its use by Microsoft. "
+      },
+      "fontFamily-SegoeUISymbol": {
+        "value": "'Segoe UI Symbol'",
+        "type": "fontFamilies",
+        "description": "The Segoe UI Symbol font from Microsoft contains an extensive range of symbols, emoji, pictures, dingbats, icons and images."
+      },
+      "fontFamily-NotoColorEmoji": {
+        "value": "'Noto Color Emoji'",
+        "type": "fontFamilies",
+        "description": "Noto Color Emoji is an open-source emoji font from Google."
+      },
+      "fontFamily-Helvetica": {
+        "value": "'Helvetica'",
+        "type": "fontFamilies",
+        "description": "Helvetica原名Neue Haas Grotesk，是一种广泛使用的无衬线字体，由瑞士字体设计师Max Miedinger和Eduard Hoffmann于1957年开发"
+      },
+      "fontFamily-PingFang SC": {
+        "value": "'PingFang SC'",
+        "type": "fontFamilies",
+        "description": "苹果专门为中国用户打造的一套字体，包括6种字重，分别是极细体、纤细体、细体、常规体、中黑体、中粗体、粗体，全部都是.ttf 格式"
+      },
+      "fontFamily-Hiragino Sans GB": {
+        "value": "'Hiragino Sans GB'",
+        "type": "fontFamilies",
+        "description": "The font was designed by JIYUKOBO Ltd and Beijing Hanyi Keyin Information Technology Co Ltd and free for personal use."
+      },
+      "fontFamily-Microsoft YaHei": {
+        "value": "'Microsoft YaHei'",
+        "type": "fontFamilies",
+        "description": "A Simplified Chinese font developed by taking advantage of ClearType technology, and it provides excellent reading experience particularly onscreen. The font is very legible at small sizes."
+      },
+      "fontFamily-微软雅黑": {
+        "value": "'微软雅黑'",
+        "type": "fontFamilies",
+        "description": "微软雅黑"
+      }
+    },
+    "fontFamily": {
+      "element-plus": {
+        "value": "{fontBase.fontFamily-Helvetica}, {fontBase.fontFamily-Helvetica}, {fontBase.fontFamily-PingFang SC} , {fontBase.fontFamily-Hiragino Sans GB} , {fontBase.fontFamily-Microsoft YaHei} , {fontBase.fontFamily-微软雅黑} , {fontBase.fontFamily-Arial} , {fontBase.fontFamily-sans-serif}",
+        "type": "fontFamilies",
+        "description": "Element Plus包含的默认字体"
+      },
+      "ant-design": {
+        "value": "{fontBase.fontFamily-apple-system}, {fontBase.fontFamily-blink} , {fontBase.fontFamily-SegoeUi} , {fontBase.fontFamily-Roboto} , {fontBase.fontFamily-HelveticaNeue} , {fontBase.fontFamily-Arial} , {fontBase.fontFamily-NotoSans} , {fontBase.fontFamily-sans-serif} , {fontBase.fontFamily-AppleColorEmoji} , {fontBase.fontFamily-SegoeUIEmoji} , {fontBase.fontFamily-SegoeUISymbol} , {fontBase.fontFamily-NotoColorEmoji}",
+        "type": "fontFamilies",
+        "description": "Ant Design默认字体组"
       }
     }
   },
