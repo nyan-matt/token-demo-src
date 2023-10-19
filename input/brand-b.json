@@ -1,33 +1,19 @@
 {
   "color-primary": {
     "default": {
-      "value": "#5a7adc",
+      "value": "#5ad8a6",
       "type": "color"
     },
     "hover": {
-      "value": "#1037ae",
+      "value": "#1e9493",
       "type": "color"
     },
     "disabled": {
-      "value": "#d6d6d6",
+      "value": "#ced4de",
       "type": "color"
     }
   },
   "button": {
-    "radius": {
-      "value": "12px",
-      "type": "borderRadius"
-    },
-    "padding": {
-      "left": {
-        "value": "16px",
-        "type": "spacing"
-      },
-      "right": {
-        "value": "16px",
-        "type": "spacing"
-      }
-    },
     "height": {
       "lg": {
         "value": "36px",
@@ -37,67 +23,21 @@
         "value": "24px",
         "type": "sizing"
       }
-    },
-    "typography": {
-      "lg": {
-        "fontFamily": {
-          "value": "'Inter', Helvetica, Arial, sans-serif",
-          "type": "fontFamilies"
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "fontWeights"
-        },
-        "fontSize": {
-          "value": "16px",
-          "type": "fontSizes"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "sm": {
-        "fontFamily": {
-          "value": "'Inter', Helvetica, Arial, sans-serif",
-          "type": "fontFamilies"
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "fontWeights"
-        },
-        "fontSize": {
-          "value": "12px",
-          "type": "fontSizes"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        }
-      }
-    },
-    "font-family": {
-      "value": "'Inter', Helvetica, Arial, sans-serif",
-      "type": "fontFamilies"
     }
   },
   "color-disabled": {
     "text": {
-      "value": "#a3a3a3",
+      "value": "#ffe0ed",
       "type": "color"
     },
     "background": {
-      "value": "#f5f5f5",
+      "value": "#cdf3e3",
       "type": "color"
     },
     "border": {
-      "value": "#adadad",
+      "value": "#945fb9",
       "type": "color"
     }
-  },
-  "button-magrin-bottom": {
-    "value": "24px",
-    "type": "spacing"
   },
   "card": {
     "width": {
