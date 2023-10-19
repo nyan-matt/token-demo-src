@@ -926,33 +926,19 @@
   "brand-b": {
     "color-primary": {
       "default": {
-        "value": "{color-base-blue.40}",
+        "value": "{chart.cyan}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-blue.70}",
+        "value": "{chart.dardGreen}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color-base-neutral-light.60}",
+        "value": "{chart.greyLight}",
         "type": "color"
       }
     },
     "button": {
-      "radius": {
-        "value": "{radius-base.sm}",
-        "type": "borderRadius"
-      },
-      "padding": {
-        "left": {
-          "value": "{spacing-base.sm}",
-          "type": "spacing"
-        },
-        "right": {
-          "value": "{spacing-base.sm}",
-          "type": "spacing"
-        }
-      },
       "height": {
         "lg": {
           "value": "36px",
@@ -962,49 +948,21 @@
           "value": "24px",
           "type": "sizing"
         }
-      },
-      "typography": {
-        "lg": {
-          "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
-            "fontWeight": "{font-weight-base.regular}",
-            "fontSize": "{font-size-label.lg}",
-            "textCase": "none"
-          },
-          "type": "typography"
-        },
-        "sm": {
-          "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
-            "fontWeight": "{font-weight-base.regular}",
-            "fontSize": "{font-size-label.xs}",
-            "textCase": "none"
-          },
-          "type": "typography"
-        }
-      },
-      "font-family": {
-        "value": "{font-face-base.sans-serif}",
-        "type": "fontFamilies"
       }
     },
     "color-disabled": {
       "text": {
-        "value": "{color-base-neutral-light.10}",
+        "value": "{chart.magentaLight}",
         "type": "color"
       },
       "background": {
-        "value": "{color-base-neutral-light.90}",
+        "value": "{chart.cyanLight}",
         "type": "color"
       },
       "border": {
-        "value": "{color-base-neutral-light.20}",
+        "value": "{chart.goldenPurple}",
         "type": "color"
       }
-    },
-    "button-magrin-bottom": {
-      "value": "{spacing-base.md}",
-      "type": "spacing"
     },
     "card": {
       "width": {
