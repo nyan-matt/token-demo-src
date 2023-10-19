@@ -47,7 +47,7 @@
       }
     },
     "gap": {
-      "value": "24px",
+      "value": "8px",
       "type": "spacing"
     }
   },
