@@ -968,6 +968,10 @@
           "value": "24px",
           "type": "sizing"
         }
+      },
+      "width": {
+        "value": "{card.width.unit}",
+        "type": "sizing"
       }
     },
     "color-disabled": {
