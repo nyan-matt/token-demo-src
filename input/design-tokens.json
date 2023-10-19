@@ -995,6 +995,16 @@
         "value": "{margin.lg}",
         "type": "spacing"
       }
+    },
+    "color": {
+      "text": {
+        "button": {
+          "title": {
+            "value": "{brand.color-primary-text}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "$themes": [],
