@@ -895,9 +895,11 @@
     },
     "card": {
       "header": {
-        "lg": {
-          "value": "{padding.default}",
-          "type": "spacing"
+        "padding": {
+          "top": {
+            "value": "{padding.default}",
+            "type": "spacing"
+          }
         }
       },
       "width": {
