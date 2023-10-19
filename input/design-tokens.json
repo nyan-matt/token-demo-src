@@ -936,6 +936,10 @@
           "value": "{margin.xl}",
           "type": "spacing"
         }
+      },
+      "gap": {
+        "value": "{card.bottom.sm}",
+        "type": "spacing"
       }
     }
   },
@@ -986,6 +990,10 @@
           "value": "{sizing-base-h.xs}",
           "type": "sizing"
         }
+      },
+      "gap": {
+        "value": "{margin.xxl}",
+        "type": "spacing"
       }
     }
   },
