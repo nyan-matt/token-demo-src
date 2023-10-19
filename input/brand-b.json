@@ -42,7 +42,7 @@
   "card": {
     "width": {
       "unit": {
-        "value": "960px",
+        "value": "270px",
         "type": "sizing"
       }
     },
