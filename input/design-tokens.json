@@ -920,6 +920,20 @@
       "radius": {
         "value": "{border-radius.default}",
         "type": "borderRadius"
+      },
+      "bottom": {
+        "sm": {
+          "value": "{margin.sm}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{margin.lg}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{margin.xl}",
+          "type": "spacing"
+        }
       }
     }
   },
