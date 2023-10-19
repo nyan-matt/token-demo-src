@@ -987,7 +987,7 @@
     "card": {
       "width": {
         "unit": {
-          "value": "{sizing-base-h.xs}",
+          "value": "{sizing-base-v.unit}",
           "type": "sizing"
         }
       },
