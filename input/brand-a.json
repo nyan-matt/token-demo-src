@@ -142,6 +142,10 @@
         "value": "32px",
         "type": "spacing"
       }
+    },
+    "gap": {
+      "value": "12px",
+      "type": "spacing"
     }
   }
 }

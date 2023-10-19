@@ -45,6 +45,10 @@
         "value": "960px",
         "type": "sizing"
       }
+    },
+    "gap": {
+      "value": "48px",
+      "type": "spacing"
     }
   }
 }
