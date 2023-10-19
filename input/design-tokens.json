@@ -895,9 +895,11 @@
     },
     "card": {
       "header": {
-        "lg": {
-          "value": "{padding.default}",
-          "type": "spacing"
+        "padding": {
+          "top": {
+            "value": "{padding.default}",
+            "type": "spacing"
+          }
         }
       },
       "width": {
@@ -934,6 +936,10 @@
           "value": "{margin.xl}",
           "type": "spacing"
         }
+      },
+      "gap": {
+        "value": "{card.bottom.sm}",
+        "type": "spacing"
       }
     }
   },
@@ -981,8 +987,22 @@
     "card": {
       "width": {
         "unit": {
-          "value": "{sizing-base-h.xs}",
+          "value": "{sizing-base-v.unit}",
           "type": "sizing"
+        }
+      },
+      "gap": {
+        "value": "{margin.lg}",
+        "type": "spacing"
+      }
+    },
+    "color": {
+      "text": {
+        "button": {
+          "title": {
+            "value": "{brand.color-primary-text}",
+            "type": "color"
+          }
         }
       }
     }

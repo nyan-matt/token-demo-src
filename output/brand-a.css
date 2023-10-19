@@ -20,7 +20,7 @@
   --color-disabled-text: #3076cc;
   --color-disabled-background: #f0f0f0;
   --color-disabled-border: #d9d9d9;
-  --card-header-lg: 16px;
+  --card-header-padding-top: 16px;
   --card-width-unit: 480px;
   --card-width-sm: 960px;
   --card-height-unit: 270px;
@@ -28,4 +28,5 @@
   --card-bottom-sm: 12px;
   --card-bottom-lg: 24px;
   --card-bottom-xxl: 32px;
+  --card-gap: 12px;
       }

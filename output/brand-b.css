@@ -7,5 +7,7 @@
   --color-disabled-text: #ffe0ed;
   --color-disabled-background: #cdf3e3;
   --color-disabled-border: #945fb9;
-  --card-width-unit: 960px;
+  --card-width-unit: 270px;
+  --card-gap: 24px;
+  --color-text-button-title: #3076cc;
       }
