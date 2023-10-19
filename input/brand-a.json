@@ -126,6 +126,20 @@
     "radius": {
       "value": "4px",
       "type": "borderRadius"
+    },
+    "bottom": {
+      "sm": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "32px",
+        "type": "spacing"
+      }
     }
   }
 }

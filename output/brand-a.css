@@ -25,4 +25,7 @@
   --card-width-sm: 960px;
   --card-height-unit: 270px;
   --card-radius: 4px;
+  --card-bottom-sm: 12px;
+  --card-bottom-lg: 24px;
+  --card-bottom-xxl: 32px;
       }
