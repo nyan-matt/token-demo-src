@@ -816,15 +816,15 @@
   "brand-a": {
     "color-primary": {
       "default": {
-        "value": "{color-base-red.40}",
+        "value": "{brand.color-primary}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-red.20}",
+        "value": "{brand.color-primary-active}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color-base-navy.10}",
+        "value": "{border.color-border-secondary}",
         "type": "color"
       }
     },
@@ -835,11 +835,11 @@
       },
       "padding": {
         "left": {
-          "value": "{spacing-base.none}",
+          "value": "{padding.default}",
           "type": "spacing"
         },
         "right": {
-          "value": "{spacing-base.sm}",
+          "value": "{padding.default}",
           "type": "spacing"
         }
       },
@@ -856,25 +856,26 @@
       "typography": {
         "lg": {
           "value": {
-            "fontFamily": "{font-face-base.serif}",
+            "fontFamily": "{fontFamily.element-plus}",
             "fontWeight": "{font-weight-base.regular}",
-            "fontSize": "{font-size-label.lg}",
-            "textCase": "none"
+            "fontSize": "{font-size.lg}",
+            "textCase": "none",
+            "lineHeight": "{lineHeight.default}"
           },
           "type": "typography"
         },
         "sm": {
           "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
-            "fontWeight": "{font-weight-base.medium}",
-            "fontSize": "{font-size-label.xs}",
+            "fontFamily": "{fontFamily.element-plus}",
+            "fontWeight": "{font-weight-base.regular}",
+            "fontSize": "{font-size.sm}",
             "textCase": "none"
           },
           "type": "typography"
         }
       },
       "font-family": {
-        "value": "{font-face-base.sans-serif}",
+        "value": "{fontFamily.element-plus}",
         "type": "fontFamilies"
       }
     },
@@ -895,7 +896,7 @@
     "card": {
       "header": {
         "lg": {
-          "value": "{button.padding.left}",
+          "value": "{padding.default}",
           "type": "spacing"
         }
       },
@@ -909,10 +910,6 @@
           "type": "sizing",
           "description": "小尺寸卡片宽度"
         }
-      },
-      "body": {
-        "value": "{spacing-base.sm}",
-        "type": "spacing"
       },
       "height": {
         "unit": {
