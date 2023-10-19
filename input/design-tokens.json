@@ -992,7 +992,7 @@
         }
       },
       "gap": {
-        "value": "{margin.xxl}",
+        "value": "{margin.xl}",
         "type": "spacing"
       }
     }
