@@ -50,5 +50,15 @@
       "value": "24px",
       "type": "spacing"
     }
+  },
+  "color": {
+    "text": {
+      "button": {
+        "title": {
+          "value": "#3076cc",
+          "type": "color"
+        }
+      }
+    }
   }
 }
