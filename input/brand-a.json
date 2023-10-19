@@ -101,9 +101,11 @@
   },
   "card": {
     "header": {
-      "lg": {
-        "value": "16px",
-        "type": "spacing"
+      "padding": {
+        "top": {
+          "value": "16px",
+          "type": "spacing"
+        }
       }
     },
     "width": {
