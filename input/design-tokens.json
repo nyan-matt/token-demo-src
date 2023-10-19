@@ -881,15 +881,15 @@
     },
     "color-disabled": {
       "text": {
-        "value": "{color-base-neutral-light.10}",
+        "value": "{brand.color-primary-text}",
         "type": "color"
       },
       "background": {
-        "value": "{color-primary.disabled}",
+        "value": "{border.color-border-secondary}",
         "type": "color"
       },
       "border": {
-        "value": "{color-base-neutral-light.20}",
+        "value": "{border.color-border}",
         "type": "color"
       }
     },
