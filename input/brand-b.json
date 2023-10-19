@@ -47,7 +47,11 @@
       }
     },
     "gap": {
-      "value": "12px",
+      "value": "8px",
+      "type": "spacing"
+    },
+    "top": {
+      "value": "24px",
       "type": "spacing"
     }
   },
