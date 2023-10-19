@@ -918,7 +918,7 @@
         }
       },
       "radius": {
-        "value": "{radius-base.md}",
+        "value": "{border-radius.default}",
         "type": "borderRadius"
       }
     }
