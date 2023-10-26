@@ -1,21 +1,21 @@
 {
   "color-primary": {
     "default": {
-      "value": "#0f992e",
+      "value": "#3076cc",
       "type": "color"
     },
     "hover": {
-      "value": "#0d8227",
+      "value": "#1f57a6",
       "type": "color"
     },
     "disabled": {
-      "value": "#c2d0dc",
+      "value": "#f0f0f0",
       "type": "color"
     }
   },
   "button": {
     "radius": {
-      "value": "48px",
+      "value": "4px",
       "type": "borderRadius"
     },
     "padding": {
@@ -41,11 +41,11 @@
     "typography": {
       "lg": {
         "fontFamily": {
-          "value": "'Consolas', Courier, monospace",
+          "value": "'Helvetica', 'Helvetica', 'PingFang SC' , 'Hiragino Sans GB' , 'Microsoft YaHei' , '微软雅黑' , 'Arial' , 'sans-serif'",
           "type": "fontFamilies"
         },
         "fontWeight": {
-          "value": 500,
+          "value": 400,
           "type": "fontWeights"
         },
         "fontSize": {
@@ -55,15 +55,19 @@
         "textCase": {
           "value": "none",
           "type": "textCase"
+        },
+        "lineHeight": {
+          "value": 1.571,
+          "type": "lineHeights"
         }
       },
       "sm": {
         "fontFamily": {
-          "value": "'Consolas', Courier, monospace",
+          "value": "'Helvetica', 'Helvetica', 'PingFang SC' , 'Hiragino Sans GB' , 'Microsoft YaHei' , '微软雅黑' , 'Arial' , 'sans-serif'",
           "type": "fontFamilies"
         },
         "fontWeight": {
-          "value": 500,
+          "value": 400,
           "type": "fontWeights"
         },
         "fontSize": {
@@ -77,22 +81,71 @@
       }
     },
     "font-family": {
-      "value": "'Consolas', Courier, monospace",
+      "value": "'Helvetica', 'Helvetica', 'PingFang SC' , 'Hiragino Sans GB' , 'Microsoft YaHei' , '微软雅黑' , 'Arial' , 'sans-serif'",
       "type": "fontFamilies"
     }
   },
   "color-disabled": {
     "text": {
-      "value": "#a3a3a3",
+      "value": "#3076cc",
       "type": "color"
     },
     "background": {
-      "value": "#f5f5f5",
+      "value": "#f0f0f0",
       "type": "color"
     },
     "border": {
-      "value": "#adadad",
+      "value": "#d9d9d9",
       "type": "color"
+    }
+  },
+  "card": {
+    "header": {
+      "padding": {
+        "top": {
+          "value": "16px",
+          "type": "spacing"
+        }
+      }
+    },
+    "width": {
+      "unit": {
+        "value": "480px",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "960px",
+        "type": "sizing",
+        "description": "小尺寸卡片宽度"
+      }
+    },
+    "height": {
+      "unit": {
+        "value": "270px",
+        "type": "sizing"
+      }
+    },
+    "radius": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "bottom": {
+      "sm": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "32px",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "value": "12px",
+      "type": "spacing"
     }
   }
 }

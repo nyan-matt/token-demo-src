@@ -1,33 +1,19 @@
 {
   "color-primary": {
     "default": {
-      "value": "#840977",
+      "value": "#5ad8a6",
       "type": "color"
     },
     "hover": {
-      "value": "#700865",
+      "value": "#1e9493",
       "type": "color"
     },
     "disabled": {
-      "value": "#e0c2dd",
+      "value": "#ced4de",
       "type": "color"
     }
   },
   "button": {
-    "radius": {
-      "value": "4px",
-      "type": "borderRadius"
-    },
-    "padding": {
-      "left": {
-        "value": "16px",
-        "type": "spacing"
-      },
-      "right": {
-        "value": "16px",
-        "type": "spacing"
-      }
-    },
     "height": {
       "lg": {
         "value": "36px",
@@ -38,61 +24,49 @@
         "type": "sizing"
       }
     },
-    "typography": {
-      "lg": {
-        "fontFamily": {
-          "value": "'Inter', Helvetica, Arial, sans-serif",
-          "type": "fontFamilies"
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "fontWeights"
-        },
-        "fontSize": {
-          "value": "16px",
-          "type": "fontSizes"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        }
-      },
-      "sm": {
-        "fontFamily": {
-          "value": "'Inter', Helvetica, Arial, sans-serif",
-          "type": "fontFamilies"
-        },
-        "fontWeight": {
-          "value": 400,
-          "type": "fontWeights"
-        },
-        "fontSize": {
-          "value": "12px",
-          "type": "fontSizes"
-        },
-        "textCase": {
-          "value": "none",
-          "type": "textCase"
-        }
-      }
-    },
-    "font-family": {
-      "value": "'Inter', Helvetica, Arial, sans-serif",
-      "type": "fontFamilies"
+    "width": {
+      "value": "270px",
+      "type": "sizing"
     }
   },
   "color-disabled": {
     "text": {
-      "value": "#a3a3a3",
+      "value": "#ffe0ed",
       "type": "color"
     },
     "background": {
-      "value": "#f5f5f5",
+      "value": "#cdf3e3",
       "type": "color"
     },
     "border": {
-      "value": "#adadad",
+      "value": "#945fb9",
       "type": "color"
+    }
+  },
+  "card": {
+    "width": {
+      "unit": {
+        "value": "270px",
+        "type": "sizing"
+      }
+    },
+    "gap": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "top": {
+      "value": "24px",
+      "type": "spacing"
+    }
+  },
+  "color": {
+    "text": {
+      "button": {
+        "title": {
+          "value": "#3076cc",
+          "type": "color"
+        }
+      }
     }
   }
 }

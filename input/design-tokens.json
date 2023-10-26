@@ -1,413 +1,97 @@
 {
   "base": {
-    "spacing-base": {
-      "unit": {
-        "value": "8px",
-        "type": "spacing"
-      },
-      "xs": {
-        "value": "{spacing-base.unit}*1",
-        "type": "spacing"
-      },
-      "sm": {
-        "value": "{spacing-base.unit}*2",
-        "type": "spacing"
-      },
-      "md": {
-        "value": "{spacing-base.unit}*3",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{spacing-base.unit}*4",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "{spacing-base.unit}*5",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "{spacing-base.unit}*6",
-        "type": "spacing"
-      },
-      "none": {
-        "value": "0px",
-        "type": "spacing"
-      }
-    },
-    "color-base-neutral-dark": {
-      "10": {
-        "value": "hsl(0,0%,36%)",
-        "type": "color"
-      },
-      "20": {
-        "value": "hsl(0,0%,32%)",
-        "type": "color"
-      },
-      "30": {
-        "value": "hsl(0,0%,28%)",
-        "type": "color"
-      },
-      "40": {
-        "value": "hsl(0,0%,24%)",
-        "type": "color"
-      },
-      "50": {
-        "value": "hsl(0,0%,20%)",
-        "type": "color"
-      },
-      "60": {
-        "value": "hsl(0,0%,16%)",
-        "type": "color"
-      },
-      "70": {
-        "value": "hsl(0,0%,12%)",
-        "type": "color"
-      },
-      "80": {
-        "value": "hsl(0,0%,8%)",
-        "type": "color"
-      },
-      "90": {
-        "value": "hsl(0,0%,4%)",
-        "type": "color"
-      },
-      "100": {
-        "value": "hsl(0,0%,0%)",
-        "type": "color"
-      }
-    },
-    "color-base-dark-blue": {
-      "10": {
-        "value": "#cccfd1",
-        "type": "color"
-      },
-      "20": {
-        "value": "#adb2b6",
-        "type": "color"
-      },
-      "30": {
-        "value": "#8f959a",
-        "type": "color"
-      },
-      "40": {
-        "value": "#70787f",
-        "type": "color"
-      },
-      "50": {
-        "value": "#525b63",
-        "type": "color"
-      },
-      "60": {
-        "value": "#333E48",
+    "brand": {
+      "color-primary-bg": {
+        "value": "#f0f9ff",
         "type": "color",
-        "description": "default"
+        "description": "主色浅色背景色"
       },
-      "70": {
-        "value": "#2b353d",
-        "type": "color"
-      },
-      "80": {
-        "value": "#242b32",
-        "type": "color"
-      },
-      "90": {
-        "value": "#1c2228",
-        "type": "color"
-      },
-      "100": {
-        "value": "#14191d",
-        "type": "color"
-      }
-    },
-    "color-base-blue": {
-      "10": {
-        "value": "#c4d0f3",
-        "type": "color"
-      },
-      "20": {
-        "value": "#a1b3eb",
-        "type": "color"
-      },
-      "30": {
-        "value": "#7d97e4",
-        "type": "color"
-      },
-      "40": {
-        "value": "#5a7adc",
-        "type": "color"
-      },
-      "50": {
-        "value": "#365ed5",
-        "type": "color"
-      },
-      "60": {
-        "value": "#1341cd",
-        "type": "color"
-      },
-      "70": {
-        "value": "#1037ae",
-        "type": "color"
-      },
-      "80": {
-        "value": "#0d2e90",
-        "type": "color"
-      },
-      "90": {
-        "value": "#0a2471",
-        "type": "color"
-      },
-      "100": {
-        "value": "#081a52",
-        "type": "color"
-      }
-    },
-    "color-base-red": {
-      "10": {
-        "value": "#f1c4c4",
-        "type": "color"
-      },
-      "20": {
-        "value": "#e9a0a0",
-        "type": "color"
-      },
-      "30": {
-        "value": "#e07d7d",
-        "type": "color"
-      },
-      "40": {
-        "value": "#d85959",
-        "type": "color"
-      },
-      "50": {
-        "value": "#cf3636",
-        "type": "color"
-      },
-      "60": {
-        "value": "#c71212",
-        "type": "color"
-      },
-      "70": {
-        "value": "#a90f0f",
-        "type": "color"
-      },
-      "80": {
-        "value": "#8b0d0d",
-        "type": "color"
-      },
-      "90": {
-        "value": "#6d0a0a",
-        "type": "color"
-      },
-      "100": {
-        "value": "#500707",
-        "type": "color"
-      }
-    },
-    "color-base-green": {
-      "10": {
-        "value": "#c3e6cb",
-        "type": "color"
-      },
-      "20": {
-        "value": "#9fd6ab",
-        "type": "color"
-      },
-      "30": {
-        "value": "#7bc78c",
-        "type": "color"
-      },
-      "40": {
-        "value": "#57b86d",
-        "type": "color"
-      },
-      "50": {
-        "value": "#33a84d",
-        "type": "color"
-      },
-      "60": {
-        "value": "#0f992e",
-        "type": "color"
-      },
-      "70": {
-        "value": "#0d8227",
-        "type": "color"
-      },
-      "80": {
-        "value": "#0b6b20",
-        "type": "color"
-      },
-      "90": {
-        "value": "#085419",
-        "type": "color"
-      },
-      "100": {
-        "value": "#063d12",
-        "type": "color"
-      }
-    },
-    "color-base-navy": {
-      "10": {
-        "value": "#c2d0dc",
-        "type": "color"
-      },
-      "20": {
-        "value": "#9db3c7",
-        "type": "color"
-      },
-      "30": {
-        "value": "#7897b2",
-        "type": "color"
-      },
-      "40": {
-        "value": "#547a9d",
-        "type": "color"
-      },
-      "50": {
-        "value": "#2f5e88",
-        "type": "color"
-      },
-      "60": {
-        "value": "#0a4173",
+      "color-primary-bg-hover": {
+        "value": "#e0f2ff",
         "type": "color",
-        "description": "default"
+        "description": "主色浅色背景悬浮态"
       },
-      "70": {
-        "value": "#093762",
-        "type": "color"
+      "color-primary-border": {
+        "value": "#aed4f2",
+        "type": "color",
+        "description": "主色描边色"
       },
-      "80": {
-        "value": "#072e51",
-        "type": "color"
+      "color-primary-border-hover": {
+        "value": "#81b5e6",
+        "type": "color",
+        "description": "主色描边色悬浮态"
       },
-      "90": {
-        "value": "#06243f",
-        "type": "color"
+      "color-primary-hover": {
+        "value": "#5796d9",
+        "type": "color",
+        "description": "主色悬浮态"
       },
-      "100": {
-        "value": "#041a2e",
-        "type": "color"
+      "color-primary": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "品牌主色"
+      },
+      "color-primary-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "主色激活态"
+      },
+      "color-primary-text-hover": {
+        "value": "#5796d9",
+        "type": "color",
+        "description": "主色文本悬浮态"
+      },
+      "color-primary-text": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "主色文本"
+      },
+      "color-primary-text-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "主色文本激活态"
       }
     },
-    "color-base-pink": {
-      "10": {
-        "value": "#e0c2dd",
-        "type": "color"
-      },
-      "20": {
-        "value": "#ce9dc9",
-        "type": "color"
-      },
-      "30": {
-        "value": "#bb78b4",
-        "type": "color"
-      },
-      "40": {
-        "value": "#a953a0",
-        "type": "color"
-      },
-      "50": {
-        "value": "#962e8b",
-        "type": "color"
-      },
-      "60": {
-        "value": "#840977",
-        "type": "color"
-      },
-      "70": {
-        "value": "#700865",
-        "type": "color"
-      },
-      "80": {
-        "value": "#5c0653",
-        "type": "color"
-      },
-      "90": {
-        "value": "#490541",
-        "type": "color"
-      },
-      "100": {
-        "value": "#350430",
-        "type": "color"
-      }
-    },
-    "font-face-base": {
-      "sans-serif": {
-        "value": "'Inter', Helvetica, Arial, sans-serif",
-        "type": "fontFamilies"
-      },
-      "serif": {
-        "value": "Baskerville",
-        "type": "fontFamilies"
-      },
-      "mono": {
-        "value": "'Consolas', Courier, monospace",
-        "type": "fontFamilies"
-      }
-    },
-    "font-size-display": {
-      "xs": {
+    "font-size": {
+      "default": {
         "value": "14px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "中等字号(默认字号)"
       },
       "sm": {
-        "value": "16px",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "18px",
-        "type": "fontSizes"
-      },
-      "lg": {
-        "value": "24px",
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": "32px",
-        "type": "fontSizes"
-      },
-      "xxl": {
-        "value": "48px",
-        "type": "fontSizes"
-      }
-    },
-    "font-size-label": {
-      "xs": {
         "value": "12px",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "13px",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "14px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "小字号"
       },
       "lg": {
         "value": "16px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "大字号"
       },
       "xl": {
-        "value": "17px",
-        "type": "fontSizes"
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "超大字号"
       },
-      "xxl": {
-        "value": "18px",
-        "type": "fontSizes"
-      }
-    },
-    "font-size-body": {
-      "sm": {
-        "value": "14px",
-        "type": "fontSizes"
+      "heading1": {
+        "value": "24px",
+        "type": "fontSizes",
+        "description": "一级标题字号"
       },
-      "md": {
+      "heading2": {
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "二级标题字号"
+      },
+      "heading3": {
         "value": "16px",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "description": "三级标题字号"
       },
-      "lg": {
-        "value": "18px",
-        "type": "fontSizes"
+      "heading4": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "四级标题字号"
       }
     },
     "font-weight-base": {
@@ -428,108 +112,734 @@
         "type": "fontWeights"
       }
     },
-    "radius-base": {
-      "min": {
+    "border-radius": {
+      "default": {
         "value": "4px",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "基础圆角"
+      }
+    },
+    "sizing-base-h": {
+      "unit": {
+        "value": "480px",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "{sizing-base-h.unit} * 2",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{sizing-base-h.unit} * 3",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{sizing-base-h.unit} * 4",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{sizing-base-h.unit} * 5",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{sizing-base-h.unit} * 6",
+        "type": "sizing"
+      },
+      "xxl": {
+        "value": "{sizing-base-h.unit} * 7",
+        "type": "sizing"
+      }
+    },
+    "sizing-base-v": {
+      "unit": {
+        "value": "270px",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "{sizing-base-v.unit} * 2",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{sizing-base-v.unit} * 3",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{sizing-base-v.unit} * 4",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{sizing-base-v.unit} * 5",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{sizing-base-v.unit} * 6",
+        "type": "sizing"
+      }
+    },
+    "success": {
+      "color-success-bg": {
+        "value": "#f6ffed",
+        "type": "color",
+        "description": "成功色的浅色背景颜色"
+      },
+      "color-success-bg-hover": {
+        "value": "#d9f7be",
+        "type": "color",
+        "description": "成功色的浅色背景悬浮态"
+      },
+      "color-success-border": {
+        "value": "#b7eb8f",
+        "type": "color",
+        "description": "成功色的描边色"
+      },
+      "color-success-border-hover": {
+        "value": "#95de64",
+        "type": "color",
+        "description": "成功色的描边色悬浮态"
+      },
+      "color-success-hover": {
+        "value": "#95de64",
+        "type": "color",
+        "description": "成功色的深色悬浮态"
+      },
+      "color-success": {
+        "value": "#52c41a",
+        "type": "color",
+        "description": "成功色"
+      },
+      "color-success-active": {
+        "value": "#389e0d",
+        "type": "color",
+        "description": "成功色的深色激活态"
+      },
+      "color-success-text-hover": {
+        "value": "#73d13d",
+        "type": "color",
+        "description": "成功色的文本悬浮态"
+      },
+      "color-success-text": {
+        "value": "#52c41a",
+        "type": "color",
+        "description": "成功色的文本默认态"
+      },
+      "color-success-text-active": {
+        "value": "#389e0d",
+        "type": "color",
+        "description": "成功色的文本激活态"
+      }
+    },
+    "warning": {
+      "color-warning-bg": {
+        "value": "#fffbe6",
+        "type": "color",
+        "description": "警戒色的浅色背景颜色"
+      },
+      "color-warning-bg-hover": {
+        "value": "#fff1b8",
+        "type": "color",
+        "description": "警戒色的浅色背景悬浮态"
+      },
+      "color-warning-border": {
+        "value": "#ffe58f",
+        "type": "color",
+        "description": "警戒色的描边色"
+      },
+      "color-warning-border-hover": {
+        "value": "#ffd666",
+        "type": "color",
+        "description": "警戒色的描边色悬浮态"
+      },
+      "color-warning-hover": {
+        "value": "#ffd666",
+        "type": "color",
+        "description": "警戒色的深色悬浮态"
+      },
+      "color-warning": {
+        "value": "#faad14",
+        "type": "color",
+        "description": "警戒色"
+      },
+      "color-warning-active": {
+        "value": "#d48806",
+        "type": "color",
+        "description": "警戒色的深色激活态"
+      },
+      "color-warning-text-hover": {
+        "value": "#ffc53d",
+        "type": "color",
+        "description": "警戒色的文本悬浮态"
+      },
+      "color-warning-text": {
+        "value": "#faad14",
+        "type": "color",
+        "description": "警戒色的文本默认态"
+      },
+      "color-warning-text-active": {
+        "value": "#d48806",
+        "type": "color",
+        "description": "警戒色的文本激活态"
+      }
+    },
+    "error": {
+      "color-error-bg": {
+        "value": "#fff2f0",
+        "type": "color",
+        "description": "错误色的浅色背景颜色"
+      },
+      "color-error-bg-hover": {
+        "value": "#fff1f0",
+        "type": "color",
+        "description": "错误色的浅色背景色悬浮态"
+      },
+      "color-error-border": {
+        "value": "#ffccc7",
+        "type": "color",
+        "description": "错误色的描边色"
+      },
+      "color-error-border-hover": {
+        "value": "#ffa39e",
+        "type": "color",
+        "description": "错误色的描边色悬浮态"
+      },
+      "color-error-hover": {
+        "value": "#ff7875",
+        "type": "color",
+        "description": "错误色的深色悬浮态"
+      },
+      "color-error": {
+        "value": "#ff4d4f",
+        "type": "color",
+        "description": "错误色"
+      },
+      "color-error-active": {
+        "value": "#d9363e",
+        "type": "color",
+        "description": "错误色的深色激活态"
+      },
+      "color-error-text-hover": {
+        "value": "#ff7875",
+        "type": "color",
+        "description": "错误色的文本悬浮态"
+      },
+      "color-error-text": {
+        "value": "#ff4d4f",
+        "type": "color",
+        "description": "错误色的文本默认态"
+      },
+      "color-error-text-active": {
+        "value": "#d9363e",
+        "type": "color",
+        "description": "错误色的文本激活态"
+      }
+    },
+    "info": {
+      "color-info-bg": {
+        "value": "#eaf4ff",
+        "type": "color",
+        "description": "信息色的浅色背景颜色"
+      },
+      "color-info-bg-hover": {
+        "value": "#e0f2ff",
+        "type": "color",
+        "description": "信息色的浅色背景悬浮态"
+      },
+      "color-info-border": {
+        "value": "#97c3f2",
+        "type": "color",
+        "description": "信息色的描边色"
+      },
+      "color-info-border-hover": {
+        "value": "#81b5e6",
+        "type": "color",
+        "description": "信息色的描边色悬浮态"
+      },
+      "color-info-hover": {
+        "value": "#4196f0",
+        "type": "color",
+        "description": "信息色的深色悬浮态"
+      },
+      "color-info": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "信息色"
+      },
+      "color-info-active": {
+        "value": "#277cd6",
+        "type": "color",
+        "description": "信息色的深色激活态"
+      },
+      "color-info-text-hover": {
+        "value": "#4196f0",
+        "type": "color",
+        "description": "信息色的文本悬浮态"
+      },
+      "color-info-text": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "信息色的文本默认态"
+      },
+      "color-info-text-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "信息色的文本激活态"
+      }
+    },
+    "link": {
+      "color-link": {
+        "value": "#3076cc",
+        "type": "color",
+        "description": "链接色"
+      },
+      "color-link-hover": {
+        "value": "#81b5e6",
+        "type": "color",
+        "description": "超链接悬浮颜色"
+      },
+      "color-link-active": {
+        "value": "#1f57a6",
+        "type": "color",
+        "description": "超链接激活颜色"
+      }
+    },
+    "text": {
+      "color-text-base": {
+        "value": "#000000",
+        "type": "color",
+        "description": "基础文本色"
+      },
+      "color-text": {
+        "value": "rgba(0,0,0,0.88)",
+        "type": "color",
+        "description": "一级文本色"
+      },
+      "color-text-secondary": {
+        "value": "rgba(0,0,0,0.65)",
+        "type": "color",
+        "description": "二级文本色"
+      },
+      "color-text-tertiary": {
+        "value": "rgba(0,0,0,0.45)",
+        "type": "color",
+        "description": "三级文本色"
+      },
+      "color-text-quaternary": {
+        "value": "rgba(0,0,0,0.25)",
+        "type": "color",
+        "description": "四级文本色"
+      }
+    },
+    "border": {
+      "color-border": {
+        "value": "#d9d9d9",
+        "type": "color",
+        "description": "一级边框色"
+      },
+      "color-border-secondary": {
+        "value": "#f0f0f0",
+        "type": "color",
+        "description": "二级边框色"
+      }
+    },
+    "fill": {
+      "color-fill": {
+        "value": "rgba(0,0,0,0.15)",
+        "type": "color",
+        "description": "一级填充"
+      },
+      "color-fill-secondary": {
+        "value": "rgba(0,0,0,0.06)",
+        "type": "color",
+        "description": "二级填充"
+      },
+      "color-fill-tertiary": {
+        "value": "rgba(0,0,0,0.04)",
+        "type": "color",
+        "description": "三级填充"
+      },
+      "color-fill-quaternary": {
+        "value": "rgba(0,0,0,0.02)",
+        "type": "color",
+        "description": "四级填充"
+      }
+    },
+    "background": {
+      "color-bg-container": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "组件容器背景色"
+      },
+      "color-bg-elevated": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "浮层容器背景色"
+      },
+      "color-bg-layout": {
+        "value": "#f5f5f5",
+        "type": "color",
+        "description": "布局背景色"
+      },
+      "color-bg-spotlight": {
+        "value": "rgba(0,0,0,0.85)",
+        "type": "color",
+        "description": "引起注意的背景色"
+      },
+      "color-bg-mask": {
+        "value": "rgba(0,0,0,0.45)",
+        "type": "color",
+        "description": "浮层的背景蒙层颜色"
+      }
+    },
+    "fontBase": {
+      "fontFamily-apple-system": {
+        "value": "'-apple-system'",
+        "type": "fontFamilies",
+        "description": "-apple-system targets San Francisco in Safari (on Mac OS X and iOS), and it targets Neue Helvetica and Lucida Grande on older versions of Mac OS X. It properly selects between San Francisco Text and San Francisco Display depending on the text’s size"
+      },
+      "fontFamily-blink": {
+        "value": "'BlinkMacSystemFont'",
+        "type": "fontFamilies",
+        "description": "Apple system font full version"
+      },
+      "fontFamily-SegoeUi": {
+        "value": "'Segoe UI'",
+        "type": "fontFamilies",
+        "description": "Segoe UI targets Windows and Windows Phone."
+      },
+      "fontFamily-Roboto": {
+        "value": "'Roboto'",
+        "type": "fontFamilies",
+        "description": "Roboto targets Android and newer Chrome OS. It is deliberately listed after Segoe UI so that if you’re an Android developer on Windows and have Roboto installed, Segoe UI will be used instead."
+      },
+      "fontFamily-HelveticaNeue": {
+        "value": "'Helvetica Neue'",
+        "type": "fontFamilies",
+        "description": "Helvetica Neue is a sans-serif typeface that is inspiring designers with its unique and appealing characters and width for a long time. The font came to the surface in 1957 by a typeface designer Max Miedinger belongs to Swiss. "
+      },
+      "fontFamily-Arial": {
+        "value": "'Arial'",
+        "type": "fontFamilies",
+        "description": "Arial is an extremely versatile family of typefaces which can be used with equal success for text setting in reports, presentations, magazines etc, and for display use in newspapers, advertising and promotions."
+      },
+      "fontFamily-NotoSans": {
+        "value": "'Noto Sans'",
+        "type": "fontFamilies",
+        "description": "Noto Sans is an unmodulated (“sans serif”) design for texts in the Latin, Cyrillic and Greek scripts, which is also suitable as the complementary choice for other script-specific Noto Sans fonts."
+      },
+      "fontFamily-sans-serif": {
+        "value": "'sans-serif'",
+        "type": "fontFamilies",
+        "description": "A sans serif—or simply “sans”—is a typeface designed without serif.Examples of sans serif typefaces include Roboto, Open Sans, Poppins, Noto Sans, Work Sans, and Epilogue."
+      },
+      "fontFamily-AppleColorEmoji": {
+        "value": "'Apple Color Emoji'",
+        "type": "fontFamilies",
+        "description": "Apple Color Emoji (stylized as AppleColorEmoji) is a color typeface used on Apple platforms such as iOS and macOS to display Emoji characters."
+      },
+      "fontFamily-SegoeUIEmoji": {
+        "value": "'Segoe UI Emoji'",
+        "type": "fontFamilies",
+        "description": "Segoe (/ˈsiːɡoʊ/ SEE-goh) is a typeface, or family of fonts, that is best known for its use by Microsoft. "
+      },
+      "fontFamily-SegoeUISymbol": {
+        "value": "'Segoe UI Symbol'",
+        "type": "fontFamilies",
+        "description": "The Segoe UI Symbol font from Microsoft contains an extensive range of symbols, emoji, pictures, dingbats, icons and images."
+      },
+      "fontFamily-NotoColorEmoji": {
+        "value": "'Noto Color Emoji'",
+        "type": "fontFamilies",
+        "description": "Noto Color Emoji is an open-source emoji font from Google."
+      },
+      "fontFamily-Helvetica": {
+        "value": "'Helvetica'",
+        "type": "fontFamilies",
+        "description": "Helvetica原名Neue Haas Grotesk，是一种广泛使用的无衬线字体，由瑞士字体设计师Max Miedinger和Eduard Hoffmann于1957年开发"
+      },
+      "fontFamily-PingFang SC": {
+        "value": "'PingFang SC'",
+        "type": "fontFamilies",
+        "description": "苹果专门为中国用户打造的一套字体，包括6种字重，分别是极细体、纤细体、细体、常规体、中黑体、中粗体、粗体，全部都是.ttf 格式"
+      },
+      "fontFamily-Hiragino Sans GB": {
+        "value": "'Hiragino Sans GB'",
+        "type": "fontFamilies",
+        "description": "The font was designed by JIYUKOBO Ltd and Beijing Hanyi Keyin Information Technology Co Ltd and free for personal use."
+      },
+      "fontFamily-Microsoft YaHei": {
+        "value": "'Microsoft YaHei'",
+        "type": "fontFamilies",
+        "description": "A Simplified Chinese font developed by taking advantage of ClearType technology, and it provides excellent reading experience particularly onscreen. The font is very legible at small sizes."
+      },
+      "fontFamily-微软雅黑": {
+        "value": "'微软雅黑'",
+        "type": "fontFamilies",
+        "description": "微软雅黑"
+      }
+    },
+    "fontFamily": {
+      "element-plus": {
+        "value": "{fontBase.fontFamily-Helvetica}, {fontBase.fontFamily-Helvetica}, {fontBase.fontFamily-PingFang SC} , {fontBase.fontFamily-Hiragino Sans GB} , {fontBase.fontFamily-Microsoft YaHei} , {fontBase.fontFamily-微软雅黑} , {fontBase.fontFamily-Arial} , {fontBase.fontFamily-sans-serif}",
+        "type": "fontFamilies",
+        "description": "Element Plus包含的默认字体"
+      },
+      "ant-design": {
+        "value": "{fontBase.fontFamily-apple-system}, {fontBase.fontFamily-blink} , {fontBase.fontFamily-SegoeUi} , {fontBase.fontFamily-Roboto} , {fontBase.fontFamily-HelveticaNeue} , {fontBase.fontFamily-Arial} , {fontBase.fontFamily-NotoSans} , {fontBase.fontFamily-sans-serif} , {fontBase.fontFamily-AppleColorEmoji} , {fontBase.fontFamily-SegoeUIEmoji} , {fontBase.fontFamily-SegoeUISymbol} , {fontBase.fontFamily-NotoColorEmoji}",
+        "type": "fontFamilies",
+        "description": "Ant Design默认字体组"
+      }
+    },
+    "lineHeight": {
+      "default": {
+        "value": "1.571428571",
+        "type": "lineHeights",
+        "description": "默认行高"
+      },
+      "sm": {
+        "value": "1.6666666666666667",
+        "type": "lineHeights",
+        "description": "小字号行高"
+      },
+      "lg": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "description": "大字号行高"
+      },
+      "xl": {
+        "value": "1.4",
+        "type": "lineHeights",
+        "description": "超大字号行高"
+      },
+      "heading1": {
+        "value": "1.33333333333333",
+        "type": "lineHeights",
+        "description": "一级标题行高"
+      },
+      "heading2": {
+        "value": "1.4",
+        "type": "lineHeights",
+        "description": "二级标题行高"
+      },
+      "heading3": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "description": "三级标题行高"
+      },
+      "heading4": {
+        "value": "1.571428571",
+        "type": "lineHeights",
+        "description": "四级标题行高"
+      }
+    },
+    "margin": {
+      "xxs": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "极小外间距"
       },
       "xs": {
         "value": "8px",
-        "type": "borderRadius"
+        "type": "spacing",
+        "description": "特小外间距"
       },
       "sm": {
         "value": "12px",
-        "type": "borderRadius"
+        "type": "spacing",
+        "description": "小外间距"
+      },
+      "default": {
+        "value": "16px",
+        "type": "spacing",
+        "description": "外间距"
       },
       "md": {
-        "value": "24px",
-        "type": "borderRadius"
+        "value": "20px",
+        "type": "spacing",
+        "description": "中等外间距"
       },
       "lg": {
-        "value": "48px",
-        "type": "borderRadius"
+        "value": "24px",
+        "type": "spacing",
+        "description": "大外间距"
       },
       "xl": {
-        "value": "64px",
-        "type": "borderRadius"
+        "value": "32px",
+        "type": "spacing",
+        "description": "特大外间距"
+      },
+      "xxl": {
+        "value": "48px",
+        "type": "spacing",
+        "description": "超大外间距"
       }
     },
-    "color-base-neutral-light": {
-      "10": {
-        "value": "hsl(0,0%,64%)",
-        "type": "color"
+    "padding": {
+      "xxs": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "极小内间距"
       },
-      "20": {
-        "value": "hsl(0,0%,68%)",
-        "type": "color"
+      "xs": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "特小内间距"
       },
-      "30": {
-        "value": "hsl(0,0%,72%)",
-        "type": "color"
+      "sm": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "小内间距"
       },
-      "40": {
-        "value": "hsl(0,0%,76%)",
-        "type": "color"
+      "default": {
+        "value": "16px",
+        "type": "spacing",
+        "description": "内间距"
       },
-      "50": {
-        "value": "hsl(0,0%,80%)",
-        "type": "color"
+      "md": {
+        "value": "20px",
+        "type": "spacing",
+        "description": "中等内间距"
       },
-      "60": {
-        "value": "hsl(0,0%,84%)",
-        "type": "color"
+      "lg": {
+        "value": "24px",
+        "type": "spacing",
+        "description": "大内间距"
       },
-      "70": {
-        "value": "hsl(0,0%,88%)",
-        "type": "color"
-      },
-      "80": {
-        "value": "hsl(0,0%,92%)",
-        "type": "color"
-      },
-      "90": {
-        "value": "hsl(0,0%,96%)",
-        "type": "color"
-      },
-      "100": {
-        "value": "hsl(0,0%,100%)",
-        "type": "color"
+      "xl": {
+        "value": "32px",
+        "type": "spacing",
+        "description": "特大内间距"
       }
     },
-    "color-test": {
-      "ci-trigger": {
-        "value": "orange",
-        "type": "color"
+    "boxShadow": {
+      "default": {
+        "value": "0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)",
+        "type": "boxShadow",
+        "description": "一级阴影"
+      },
+      "secondary": {
+        "value": "0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)",
+        "type": "boxShadow",
+        "description": "二级阴影"
+      }
+    },
+    "chart": {
+      "cyan": {
+        "value": "#5ad8a6",
+        "type": "color",
+        "description": "翡翠绿"
+      },
+      "cyanLight": {
+        "value": "#cdf3e3",
+        "type": "color",
+        "description": "翡翠浅绿"
+      },
+      "grey": {
+        "value": "#5d7092",
+        "type": "color",
+        "description": "商务灰"
+      },
+      "greyLight": {
+        "value": "#ced4de",
+        "type": "color",
+        "description": "商务浅灰"
+      },
+      "sunriseYellow": {
+        "value": "#f6bd16",
+        "type": "color",
+        "description": "旭日黄"
+      },
+      "sunriseYellowLight": {
+        "value": "#fcebb9",
+        "type": "color",
+        "description": "旭日浅黄"
+      },
+      "dustRed": {
+        "value": "#e86452",
+        "type": "color",
+        "description": "薄暮红"
+      },
+      "dustRedLight": {
+        "value": "#f8d0cb",
+        "type": "color",
+        "description": "薄暮浅红"
+      },
+      "dayBreakBlue": {
+        "value": "#6dc8ec",
+        "type": "color",
+        "description": "破晓蓝"
+      },
+      "dayBreakBlueLight": {
+        "value": "#d3eef9",
+        "type": "color",
+        "description": "破晓浅蓝"
+      },
+      "goldenPurple": {
+        "value": "#945fb9",
+        "type": "color",
+        "description": "罗兰紫"
+      },
+      "goldenPurpleLight": {
+        "value": "#decfea",
+        "type": "color",
+        "description": "罗兰浅紫"
+      },
+      "sunsetOrange": {
+        "value": "#ff9845",
+        "type": "color",
+        "description": "落日橘"
+      },
+      "sunsetOrangeLight": {
+        "value": "#ffe0c7",
+        "type": "color",
+        "description": "落日浅橘"
+      },
+      "dardGreen": {
+        "value": "#1e9493",
+        "type": "color",
+        "description": "天水青"
+      },
+      "dardGreenLight": {
+        "value": "#bbdede",
+        "type": "color",
+        "description": "天水浅青"
+      },
+      "magenta": {
+        "value": "#ff99c3",
+        "type": "color",
+        "description": "桃花粉"
+      },
+      "magentaLight": {
+        "value": "#ffe0ed",
+        "type": "color",
+        "description": "桃花浅粉"
       }
     }
   },
   "brand-a": {
     "color-primary": {
       "default": {
-        "value": "{color-base-green.60}",
+        "value": "{brand.color-primary}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-green.70}",
+        "value": "{brand.color-primary-active}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color-base-navy.10}",
+        "value": "{color-disabled.background}",
         "type": "color"
       }
     },
     "button": {
       "radius": {
-        "value": "{radius-base.lg}",
+        "value": "{border-radius.default}",
         "type": "borderRadius"
       },
       "padding": {
         "left": {
-          "value": "{spacing-base.sm}",
+          "value": "{padding.default}",
           "type": "spacing"
         },
         "right": {
-          "value": "{spacing-base.sm}",
+          "value": "{padding.default}",
           "type": "spacing"
         }
       },
@@ -546,73 +856,109 @@
       "typography": {
         "lg": {
           "value": {
-            "fontFamily": "{font-face-base.mono}",
-            "fontWeight": "{font-weight-base.medium}",
-            "fontSize": "{font-size-label.lg}",
-            "textCase": "none"
+            "fontFamily": "{fontFamily.element-plus}",
+            "fontWeight": "{font-weight-base.regular}",
+            "fontSize": "{font-size.lg}",
+            "textCase": "none",
+            "lineHeight": "{lineHeight.default}"
           },
           "type": "typography"
         },
         "sm": {
           "value": {
-            "fontFamily": "{font-face-base.mono}",
-            "fontWeight": "{font-weight-base.medium}",
-            "fontSize": "{font-size-label.xs}",
+            "fontFamily": "{fontFamily.element-plus}",
+            "fontWeight": "{font-weight-base.regular}",
+            "fontSize": "{font-size.sm}",
             "textCase": "none"
           },
           "type": "typography"
         }
       },
       "font-family": {
-        "value": "{font-face-base.mono}",
+        "value": "{fontFamily.element-plus}",
         "type": "fontFamilies"
       }
     },
     "color-disabled": {
       "text": {
-        "value": "{color-base-neutral-light.10}",
+        "value": "{brand.color-primary-text}",
         "type": "color"
       },
       "background": {
-        "value": "{color-base-neutral-light.90}",
+        "value": "{border.color-border-secondary}",
         "type": "color"
       },
       "border": {
-        "value": "{color-base-neutral-light.20}",
+        "value": "{border.color-border}",
         "type": "color"
+      }
+    },
+    "card": {
+      "header": {
+        "padding": {
+          "top": {
+            "value": "{padding.default}",
+            "type": "spacing"
+          }
+        }
+      },
+      "width": {
+        "unit": {
+          "value": "{sizing-base-h.unit}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{sizing-base-h.xs}",
+          "type": "sizing",
+          "description": "小尺寸卡片宽度"
+        }
+      },
+      "height": {
+        "unit": {
+          "value": "{sizing-base-v.unit}",
+          "type": "sizing"
+        }
+      },
+      "radius": {
+        "value": "{border-radius.default}",
+        "type": "borderRadius"
+      },
+      "bottom": {
+        "sm": {
+          "value": "{margin.sm}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{margin.lg}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{margin.xl}",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "value": "{card.bottom.sm}",
+        "type": "spacing"
       }
     }
   },
   "brand-b": {
     "color-primary": {
       "default": {
-        "value": "{color-base-pink.60}",
+        "value": "{chart.cyan}",
         "type": "color"
       },
       "hover": {
-        "value": "{color-base-pink.70}",
+        "value": "{chart.dardGreen}",
         "type": "color"
       },
       "disabled": {
-        "value": "{color-base-pink.10}",
+        "value": "{chart.greyLight}",
         "type": "color"
       }
     },
     "button": {
-      "radius": {
-        "value": "{radius-base.min}",
-        "type": "borderRadius"
-      },
-      "padding": {
-        "left": {
-          "value": "{spacing-base.sm}",
-          "type": "spacing"
-        },
-        "right": {
-          "value": "{spacing-base.sm}",
-          "type": "spacing"
-        }
-      },
       "height": {
         "lg": {
           "value": "36px",
@@ -623,43 +969,49 @@
           "type": "sizing"
         }
       },
-      "typography": {
-        "lg": {
-          "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
-            "fontWeight": "{font-weight-base.regular}",
-            "fontSize": "{font-size-label.lg}",
-            "textCase": "none"
-          },
-          "type": "typography"
-        },
-        "sm": {
-          "value": {
-            "fontFamily": "{font-face-base.sans-serif}",
-            "fontWeight": "{font-weight-base.regular}",
-            "fontSize": "{font-size-label.xs}",
-            "textCase": "none"
-          },
-          "type": "typography"
-        }
-      },
-      "font-family": {
-        "value": "{font-face-base.sans-serif}",
-        "type": "fontFamilies"
+      "width": {
+        "value": "{card.width.unit}",
+        "type": "sizing"
       }
     },
     "color-disabled": {
       "text": {
-        "value": "{color-base-neutral-light.10}",
+        "value": "{chart.magentaLight}",
         "type": "color"
       },
       "background": {
-        "value": "{color-base-neutral-light.90}",
+        "value": "{chart.cyanLight}",
         "type": "color"
       },
       "border": {
-        "value": "{color-base-neutral-light.20}",
+        "value": "{chart.goldenPurple}",
         "type": "color"
+      }
+    },
+    "card": {
+      "width": {
+        "unit": {
+          "value": "{sizing-base-v.unit}",
+          "type": "sizing"
+        }
+      },
+      "gap": {
+        "value": "{margin.xs}",
+        "type": "spacing"
+      },
+      "top": {
+        "value": "{margin.lg}",
+        "type": "spacing"
+      }
+    },
+    "color": {
+      "text": {
+        "button": {
+          "title": {
+            "value": "{brand.color-primary-text}",
+            "type": "color"
+          }
+        }
       }
     }
   },

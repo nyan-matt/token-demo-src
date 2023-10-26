@@ -1,22 +1,15 @@
 .brand-b-theme {
-          --color-primary-default: #840977;
-  --color-primary-hover: #700865;
-  --color-primary-disabled: #e0c2dd;
-  --button-radius: 4px;
-  --button-padding-left: 16px;
-  --button-padding-right: 16px;
+          --color-primary-default: #5ad8a6;
+  --color-primary-hover: #1e9493;
+  --color-primary-disabled: #ced4de;
   --button-height-lg: 36px;
   --button-height-sm: 24px;
-  --button-typography-lg-font-family: 'Inter', Helvetica, Arial, sans-serif;
-  --button-typography-lg-font-weight: 400;
-  --button-typography-lg-font-size: 1rem;
-  --button-typography-lg-text-case: none;
-  --button-typography-sm-font-family: 'Inter', Helvetica, Arial, sans-serif;
-  --button-typography-sm-font-weight: 400;
-  --button-typography-sm-font-size: 0.75rem;
-  --button-typography-sm-text-case: none;
-  --button-font-family: 'Inter', Helvetica, Arial, sans-serif;
-  --color-disabled-text: #a3a3a3;
-  --color-disabled-background: #f5f5f5;
-  --color-disabled-border: #adadad;
+  --button-width: 270px;
+  --color-disabled-text: #ffe0ed;
+  --color-disabled-background: #cdf3e3;
+  --color-disabled-border: #945fb9;
+  --card-width-unit: 270px;
+  --card-gap: 8px;
+  --card-top: 24px;
+  --color-text-button-title: #3076cc;
       }
