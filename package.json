@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/michaelmang/style-dictionary#readme",
   "dependencies": {
-    "style-dictionary": "^3.7.1"
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.2.2",
+    "style-dictionary": "^3.7.1",
+    "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "handlebars": "^4.0.11",
+    "tinycolor": "^0.0.1"
   }
 }
