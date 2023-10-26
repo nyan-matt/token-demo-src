@@ -824,7 +824,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{border.color-border-secondary}",
+        "value": "{color-disabled.background}",
         "type": "color"
       }
     },
