@@ -23,6 +23,10 @@
         "value": "24px",
         "type": "sizing"
       }
+    },
+    "width": {
+      "value": "270px",
+      "type": "sizing"
     }
   },
   "color-disabled": {
